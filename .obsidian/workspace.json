@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp/DAY5.md",
+                "file": "git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/DAY5.md",
+                "file": "git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/DAY5.md",
+                "file": "git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/DAY5.md"
+                "file": "git.md"
               }
             }
           }
@@ -142,6 +142,7 @@
   },
   "active": "14353ad8c5961037",
   "lastOpenFiles": [
+    "tmp/DAY5.md",
     "git.md",
     "README.md",
     "2022-10-16.md"

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "demo.md",
+                "file": "git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "demo.md",
+                "file": "git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "demo.md",
+                "file": "git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "demo.md"
+                "file": "git.md"
               }
             }
           }
@@ -140,10 +140,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "83e8f5e4bb6ea60c",
+  "active": "8810c2df1e7775f9",
   "lastOpenFiles": [
     "README.md",
-    "demo.md",
+    "git.md",
     "2022-10-16.md"
   ]
 }

@@ -1,5 +1,6 @@
 [
   "obsidian-style-settings",
   "obsidian-git",
-  "code-block-copy"
+  "code-block-copy",
+  "cm-editor-syntax-highlight-obsidian"
 ]

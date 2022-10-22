@@ -5,9 +5,9 @@ Page({
   onLoad(){
     this.print("hello world!");
   },
-
   print(str){
     console.log(str);
   }
 })
 ```
+

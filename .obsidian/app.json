@@ -1,4 +1,5 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "Attachment"
+  "attachmentFolderPath": "Attachment",
+  "strictLineBreaks": false
 }

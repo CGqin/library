@@ -192,7 +192,6 @@ test/centos           v1        5682537a0802   6 seconds ago   231MB
 
 - 启动已停止运行的容器: `docker start 容器ID或者容器名称`
 - 重启容器: `docker restart 容器ID或者容器名称`
-
 - 停止容器: `docker stop 容器ID或者容器名称`
 
 

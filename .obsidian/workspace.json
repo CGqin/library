@@ -11,8 +11,12 @@
             "id": "aefc7eae90cabdb7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Dockerfile.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docker/Dockerfile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docker/Dockerfile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Docker/Dockerfile.md"
+              }
             }
           }
         ],
@@ -132,13 +140,13 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8810c2df1e7775f9",
+  "active": "aefc7eae90cabdb7",
   "lastOpenFiles": [
+    "Docker/Docker网络.md",
     "Docker/Docker容器.md",
     "Docker/Docker镜像.md",
     "Docker/Docker安装.md",
     "git.md",
-    "Docker/Docker网络.md",
     "tmp/DAY5.md",
     "Docker/Dockerfile.md",
     "README.md",

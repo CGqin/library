@@ -1,3 +1,11 @@
 {
-  "editor:toggle-code": []
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ]
 }

@@ -12,7 +12,3 @@ Page({
 ```
 
 ![](https://cgqin.github.io/images//20221022225225.png)
-
-```js
-
-```

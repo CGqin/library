@@ -104,5 +104,6 @@
   "minimal-style@@h6-variant": "normal",
   "minimal-style@@h5-variant": "normal",
   "minimal-style@@h4-variant": "normal",
-  "minimal-style@@tag-color@@light": "#3D445C"
+  "minimal-style@@tag-color@@light": "#3D445C",
+  "minimal-advanced@@folding-offset": 27
 }

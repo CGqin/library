@@ -11,8 +11,12 @@
             "id": "393506de77a7ecf2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "git.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "git.md"
+              }
             }
           }
         ],
@@ -131,8 +139,8 @@
   },
   "active": "393506de77a7ecf2",
   "lastOpenFiles": [
-    "Docker/Docker镜像.md",
     "tmp/DAY5.md",
+    "Docker/Docker镜像.md",
     "Docker/Docker安装.md",
     "tmp/DAY6.md",
     "网络/OSPF 的七种状态.md",

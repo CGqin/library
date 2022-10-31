@@ -3,6 +3,6 @@
   "attachmentFolderPath": "Attachment",
   "strictLineBreaks": false,
   "readableLineLength": false,
-  "vimMode": false,
+  "vimMode": true,
   "legacyEditor": false
 }

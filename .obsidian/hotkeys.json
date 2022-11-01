@@ -7,5 +7,14 @@
       ],
       "key": "P"
     }
+  ],
+  "markdown:toggle-preview": [],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
+    }
   ]
 }

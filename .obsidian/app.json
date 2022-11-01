@@ -4,5 +4,7 @@
   "strictLineBreaks": false,
   "readableLineLength": false,
   "vimMode": false,
-  "legacyEditor": false
+  "legacyEditor": false,
+  "defaultViewMode": "source",
+  "livePreview": true
 }

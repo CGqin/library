@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/shell/Shell变量.md",
+                "file": "Linux/shell/Shell注释.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/shell/Shell变量.md",
+                "file": "Linux/shell/Shell注释.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/shell/Shell变量.md",
+                "file": "Linux/shell/Shell注释.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/shell/Shell变量.md"
+                "file": "Linux/shell/Shell注释.md"
               }
             }
           }
@@ -139,10 +139,10 @@
   },
   "active": "dd1900a5e773721c",
   "lastOpenFiles": [
+    "Linux/shell/Shell变量.md",
     "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
     "服务器搭建/未命名.md",
     "未命名.md",
-    "Linux/shell/Shell变量.md",
     "Linux/shell/运行Shell脚本的两种方法.md",
     "tmp/shell变量.md",
     "Docker/Docker容器.md",

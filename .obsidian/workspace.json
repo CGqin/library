@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bb45715c6953d091",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/基础命令/Stratis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/shell/Shell注释.md",
+                "file": "Linux/基础命令/Stratis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/shell/Shell注释.md",
+                "file": "Linux/基础命令/Stratis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/shell/Shell注释.md"
+                "file": "Linux/基础命令/Stratis.md"
               }
             }
           }
@@ -137,8 +150,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dd1900a5e773721c",
+  "active": "bb45715c6953d091",
   "lastOpenFiles": [
+    "Linux/shell/Shell注释.md",
     "Linux/shell/Shell变量.md",
     "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
     "服务器搭建/未命名.md",
@@ -147,7 +161,6 @@
     "tmp/shell变量.md",
     "Docker/Docker容器.md",
     "Docker/Docker网络.md",
-    "Docker/Dockerfile.md",
-    "git.md"
+    "Docker/Dockerfile.md"
   ]
 }

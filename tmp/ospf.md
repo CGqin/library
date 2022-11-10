@@ -28,3 +28,9 @@
 ## 浮动路由
 
 浮动路由配置
+```
+ip route-static 8.8.8.8 24 10.1.1.1
+ip route-static 8.8.8.8 24 20.1.1.1 preference 100
+```
+
+### bfd 

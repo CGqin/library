@@ -16,5 +16,14 @@
       ],
       "key": "E"
     }
+  ],
+  "Enhanced editing:add-daima": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
   ]
 }

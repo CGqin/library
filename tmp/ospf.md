@@ -35,3 +35,5 @@ ip route-static 8.8.8.8 24 20.1.1.1 preference 100
 
 ### bfd 
 
+作用: 检测对端接口状态(UP/DOWN)
+

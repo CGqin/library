@@ -152,6 +152,8 @@
   },
   "active": "bb45715c6953d091",
   "lastOpenFiles": [
+    "Linux/基础命令/未命名.md",
+    "Linux/基础命令/Stratis.md",
     "Linux/shell/Shell注释.md",
     "Linux/shell/Shell变量.md",
     "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
@@ -159,8 +161,6 @@
     "未命名.md",
     "Linux/shell/运行Shell脚本的两种方法.md",
     "tmp/shell变量.md",
-    "Docker/Docker容器.md",
-    "Docker/Docker网络.md",
-    "Docker/Dockerfile.md"
+    "Docker/Docker容器.md"
   ]
 }

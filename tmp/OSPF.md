@@ -74,4 +74,16 @@ DD Sequence             序列号：用来做隐式确认
 
 >链路状态请求报文(携带LSA的三要素)
 
+```
+LS Type
+Link State ID
+Advertising Router
+```
 
+## LSU报文
+
+>携带真正的LSA信息
+
+```
+
+```

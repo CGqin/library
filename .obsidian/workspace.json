@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "85c57db39de6bf71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tmp/OSPF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/路由基础.md",
+                "file": "tmp/OSPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/路由基础.md",
+                "file": "tmp/OSPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/路由基础.md"
+                "file": "tmp/OSPF.md"
               }
             }
           }
@@ -137,8 +150,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b5a41b6a55f45ee4",
+  "active": "85c57db39de6bf71",
   "lastOpenFiles": [
+    "tmp/路由基础.md",
     "Linux/shell/运行Shell脚本的两种方法.md",
     "Linux/基础命令/未命名.md",
     "Linux/基础命令/Stratis.md",
@@ -147,7 +161,6 @@
     "Docker/Docker镜像.md",
     "Linux/shell/Shell变量.md",
     "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
-    "服务器搭建/未命名.md",
-    "未命名.md"
+    "服务器搭建/未命名.md"
   ]
 }

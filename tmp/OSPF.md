@@ -65,6 +65,9 @@ DB description          数据库描述信息
                         I 初始DD报文，用来选举主从关系master slave 
                         M 用来标识是否还有后续报文，如果为0，代表这是最后一个摘要信息
 					                              如果为1，代表后续还有摘要信息
-s代表主从置位，如果为1： 代表我是master 如果为8：代表我是slave 
-DD Sequence序列号：用来做隐式确认
+						MS 代表主从置位，如果为1： 代表我是master
+										如果为0： 代表我是slave 
+DD Sequence             序列号：用来做隐式确认
 ```
+
+## 

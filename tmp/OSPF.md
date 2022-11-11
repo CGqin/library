@@ -50,4 +50,5 @@ router PRI              路由器接口的DR优先级
 Router Dead Interval    邻居失效时间，一般是hello时间的4倍
 DR                      选举出的DR是谁
 BDR                     选举出的BDR是谁
+Active Neighbor         激活的邻居router-id,用来标识存在的邻居信息
 ```

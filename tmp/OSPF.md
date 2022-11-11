@@ -20,4 +20,5 @@
 //查看路由器全局router-id
 RouterID:12.1.1.1
 ```
-3、全局router-id是咋来的呢？路由器第一个UP的接口将会作为全局router-id
+3、全局router-id是咋来的呢？==路由器第一个UP的接口将会作为全局router-id==
+

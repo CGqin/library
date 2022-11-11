@@ -52,3 +52,5 @@ DR                      选举出的DR是谁
 BDR                     选举出的BDR是谁
 Active Neighbor         激活的邻居router-id,用来标识存在的邻居信息
 ```
+
+## DD报文

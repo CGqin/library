@@ -27,7 +27,7 @@ RouterID:12.1.1.1
 ## OSPF 通用头部
 
 ```
-OsPF通用头部：
+OSPF通用头部：
 Version 2                  OSPF版本信息（版本2版本3）
 Message Type:              OSPF报文类型12345
 Packet length:             OSPF报文长度（头部+具体报文）
@@ -35,5 +35,7 @@ Source OSPF router:        发出该报文的路由器router-id
 Area ID                    区域ID    骨干区域和非骨干区域之分
 Auth type                  认证类型
 Auth data                  认证数据（秘钥）
-
 ```
+
+## Hello 包
+

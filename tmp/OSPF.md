@@ -40,14 +40,14 @@ Auth data                  认证数据（秘钥）
 ## Hello 包
 
 ```
-Network Mask 发出该报文接口的子网掩码
-Hello Interval he11o时间
-option 特殊区域标记
-E=1说明是普通区域（可以是骨干区域，也可以是非骨干区域）
-E-BN=g说明这是stub区域 
-E=日N=1说明这是NSSA区域 
-router PRI 路由器接口的DR优先级
-Router Dead Interval 邻居失效时间，一般是he11o时间的4倍
-DR 选举出的DR是谁
-BDR 选举出的BDR是谁
+Network Mask            发出该报文接口的子网掩码
+Hello Interval          hello时间
+option                  特殊区域标记
+		                E=1说明是普通区域（可以是骨干区域，也可以是非骨干区域）
+		                E=0 N=0 说明这是stub区域 
+		                E=0 N=1 说明这是NSSA区域 
+router PRI              路由器接口的DR优先级
+Router Dead Interval    邻居失效时间，一般是hello时间的4倍
+DR                      选举出的DR是谁
+BDR                     选举出的BDR是谁
 ```

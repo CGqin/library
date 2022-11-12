@@ -88,3 +88,5 @@ Advertising Router
 
 >确认报文(使用LSA摘要信息确认)
 
+# OSPF邻居建立过程
+

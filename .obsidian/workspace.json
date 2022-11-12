@@ -11,9 +11,11 @@
             "id": "b5a41b6a55f45ee4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md"
+                "file": "tmp/OSPF.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -69,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md"
+                "file": "tmp/OSPF.md"
               }
             }
           }
@@ -77,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a3a333bb29b5dfd2",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md",
+                "file": "tmp/OSPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md",
+                "file": "tmp/OSPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,15 +139,15 @@
   },
   "active": "b5a41b6a55f45ee4",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2022-11-12 21.46.53.excalidraw.md",
-    "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md",
-    "Excalidraw/Drawing 2022-11-12 22.18.24.excalidraw.md",
-    "Excalidraw/``.md",
-    "tmp/OSPF.md",
     "tmp/路由基础.md",
+    "Excalidraw/OSPF邻居建立过程图.png",
+    "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md",
+    "Excalidraw/``.md",
+    "Excalidraw/Drawing 2022-11-12 21.46.53.excalidraw.md",
+    "Excalidraw/Drawing 2022-11-12 22.18.24.excalidraw.md",
+    "tmp/OSPF.md",
     "Attachment/Pasted Image 20221112203906_672.png",
     "网络/OSPF 的邻居状态.md",
-    "tmp/DAY5.md",
-    "tmp/shell变量.md"
+    "tmp/DAY5.md"
   ]
 }

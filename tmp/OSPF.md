@@ -90,7 +90,8 @@ Advertising Router
 
 # OSPF邻居建立过程
 
-### 邻居状态
+[[OSPF 的邻居状态]]
+
 
 # OSPF报文的确认机制
 

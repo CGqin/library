@@ -90,3 +90,5 @@ Advertising Router
 
 # OSPF邻居建立过程
 
+### 邻居状态
+

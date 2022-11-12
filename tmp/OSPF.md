@@ -92,3 +92,6 @@ Advertising Router
 
 ### 邻居状态
 
+# OSPF报文的确认机制
+
+

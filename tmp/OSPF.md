@@ -84,6 +84,7 @@ Advertising Router
 
 >携带真正的LSA信息
 
-```
+## LSAck报文
 
-```
+>确认报文(使用LSA摘要信息确认)
+

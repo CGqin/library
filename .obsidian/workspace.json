@@ -11,9 +11,11 @@
             "id": "b5a41b6a55f45ee4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/``.md"
+                "file": "tmp/OSPF.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -69,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/``.md"
+                "file": "tmp/OSPF.md"
               }
             }
           }
@@ -77,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a3a333bb29b5dfd2",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/``.md",
+                "file": "tmp/OSPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/``.md",
+                "file": "tmp/OSPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,10 +139,10 @@
   },
   "active": "b5a41b6a55f45ee4",
   "lastOpenFiles": [
-    "Attachment/Pasted Image 20221112203906_672.png",
-    "Excalidraw/``.md",
-    "tmp/OSPF.md",
     "tmp/路由基础.md",
+    "Excalidraw/``.md",
+    "Attachment/Pasted Image 20221112203906_672.png",
+    "tmp/OSPF.md",
     "网络/OSPF 的邻居状态.md",
     "tmp/DAY5.md",
     "tmp/shell变量.md",

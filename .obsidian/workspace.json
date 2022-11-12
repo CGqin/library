@@ -11,11 +11,9 @@
             "id": "b5a41b6a55f45ee4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "tmp/OSPF.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md"
               }
             }
           }
@@ -71,7 +69,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/OSPF.md"
+                "file": "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md"
               }
             }
           }
@@ -79,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a3a333bb29b5dfd2",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/OSPF.md",
+                "file": "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/OSPF.md",
+                "file": "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,15 +138,15 @@
   },
   "active": "b5a41b6a55f45ee4",
   "lastOpenFiles": [
-    "tmp/路由基础.md",
+    "Excalidraw/Drawing 2022-11-12 21.46.53.excalidraw.md",
+    "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md",
+    "Excalidraw/Drawing 2022-11-12 22.18.24.excalidraw.md",
     "Excalidraw/``.md",
-    "Attachment/Pasted Image 20221112203906_672.png",
     "tmp/OSPF.md",
+    "tmp/路由基础.md",
+    "Attachment/Pasted Image 20221112203906_672.png",
     "网络/OSPF 的邻居状态.md",
     "tmp/DAY5.md",
-    "tmp/shell变量.md",
-    "tmp/DAY6.md",
-    "Linux/shell/运行Shell脚本的两种方法.md",
-    "Linux/基础命令/未命名.md"
+    "tmp/shell变量.md"
   ]
 }

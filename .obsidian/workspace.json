@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp/DAY8.md",
+                "file": "tmp/OSPF.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/DAY8.md"
+                "file": "tmp/OSPF.md"
               }
             }
           }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/DAY8.md",
+                "file": "tmp/OSPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/DAY8.md",
+                "file": "tmp/OSPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,6 +152,7 @@
   },
   "active": "1f701212ae0b47dd",
   "lastOpenFiles": [
+    "tmp/DAY8.md",
     "tmp/DAY6.md",
     "tmp/DAY5.md",
     "tmp/OSPF.md",
@@ -160,7 +161,6 @@
     "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md",
     "Excalidraw/``.md",
     "Excalidraw/Drawing 2022-11-12 21.46.53.excalidraw.md",
-    "Excalidraw/Drawing 2022-11-12 22.18.24.excalidraw.md",
-    "Attachment/Pasted Image 20221112203906_672.png"
+    "Excalidraw/Drawing 2022-11-12 22.18.24.excalidraw.md"
   ]
 }

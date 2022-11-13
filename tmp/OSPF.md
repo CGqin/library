@@ -113,7 +113,15 @@ Advertising Router
 
 # OSPF报文的确认机制
 
-1. Hello报文            
+1. Hello        10s 40s Deadinterval 
+2. DD           seg序列号来做隐式确认
+3. LSR          使用LSU来确认
+4. LSU 
+5. LSACK     本身就是一个确认报文，确认所有LSU同步完成 
+
+## DD报文的隐式确认过程
+
+
 
 # 报文中的MTU
 

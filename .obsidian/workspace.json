@@ -75,7 +75,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -137,7 +138,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1f701212ae0b47dd",
+  "active": "9caccb93003982f6",
   "lastOpenFiles": [
     "tmp/路由基础.md",
     "服务器搭建/HTTP服务器/python搭建简易http服务器.md",

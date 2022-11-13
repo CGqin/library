@@ -104,7 +104,11 @@ Advertising Router
 4. 两台路由器分别发送DD报文, `init=1 m=1 ms=1` 开始选主从, 两台路由器都认为自己是主, 此时邻居状态为`exstart`
 5. 比较router-id后, 从路由器开始发送DD-LSA摘要信息, `init=0 m=0 ms=0` (m取决于后续是否还有摘要信息). 
 	此时从路由器状态为`exchange`, 主路由器仍为`exstart`
-6. 
+6. 主路由器收到DD摘要后, 发送LSA. 之后发送DD摘要给从路由器, `init=0 m=0 ms =1` (m取决于后续是否还有摘要信息).
+	此时从路由器状态为 `loading` , 主路由器为`exchange`
+7. 从路由器收到DD摘要后, 发送LSR. 之后发送DD报文给主路由器, 这个DD报文没有摘要, `init=0 m=0 ms=0`, 为了告诉主路由摘要已经交换完毕.
+	此时主路由为`loading`
+8. 
 # OSPF报文的确认机制
 
 # 报文中的MTU

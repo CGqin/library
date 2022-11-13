@@ -99,7 +99,7 @@ Advertising Router
 
 1. 两台路由器宣告了OSPF,发送Hello报文
 2. 两台路由器收到对方发来的Hello后,会将对方的router-id放到自己的Hello包作为active neighbor,发出.此时邻居状态为init,也叫1-way
-3. 两台路由器再次收到对方发来的携带了active neighbor 
+3. 两台路由器再次收到对方发来的携带了active neighbor为自己router-id的Hello包以后,建立邻居.此时邻居状态为2-way
 
 # OSPF报文的确认机制
 

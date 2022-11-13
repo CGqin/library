@@ -97,6 +97,7 @@ Advertising Router
 
 **OSPF邻居建立过程概述**
 
+1. 两台
 
 # OSPF报文的确认机制
 

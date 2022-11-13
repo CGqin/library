@@ -92,8 +92,10 @@ Advertising Router
 
 >[[OSPF 的邻居状态]]
 
-OSPF邻居建立过程图
+**OSPF邻居建立过程图**
 ![](https://cgqin.github.io/images//202211122239470.png)
+
+**OSPF邻居建立过程概述**
 
 
 # OSPF报文的确认机制

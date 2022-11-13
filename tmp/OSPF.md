@@ -113,7 +113,8 @@ Advertising Router
 
 # OSPF同一广播域内DR BDR选举
 
->MA网络
+>MA网络问题
+>1. 
 
 
 ## DR与BDR作用

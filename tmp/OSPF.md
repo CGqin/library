@@ -128,6 +128,9 @@ Advertising Router
 - 接口的DR优先级越大越优先。 (Hello报文中的 `router PRI` 字段)
 - 接口的DR优先级相等时，Router ID越大越优先。
 
+## 选举过程
+
+
 # OSPF报文的确认机制
 
 1. Hello        10s 40s Deadinterval 

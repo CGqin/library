@@ -121,7 +121,7 @@ Advertising Router
 
 ## DD报文的隐式确认过程
 
-
+OSPF报文确认机制： 1、hello包 10s 40s Deadinterval 2、DD seq序列号来做隐式确认 3、LSR 使用LsU来确认  4、LSU 5、LSACK本身就是一个确认报文，确认所有Lsu同步完成 DD报文的隐式确认过程： R2--->R1 第一个DD 用来选主从，此时SEQ：129 R1--->R2 第一个DD 用来选主从，此时SEQ：124 以上2个SEQ是没有人任何关联性的 R1--->R2 第2个DD，认怂，自己是从路由器，此时SEQ：129 9 （此时的SEQ会使用和R2给R1发送的第一个DD报文的SEQ） 用来给R2做隐式确认的。 R2--->R1第2个DD，自己仍然是主路由器，发送了LSR后会给从路由器发送DD摘要，此时SEQ为 129+1=130 R1--->R2最后一个DD，从路由器认为LSA摘要全部交换完毕，发送空DD帮助主路由器进入loading状态，此时空DD的SEQ=129+1
 
 # 报文中的MTU
 

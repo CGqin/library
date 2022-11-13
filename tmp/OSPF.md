@@ -111,6 +111,9 @@ Advertising Router
 	此时主路由为`loading`
 8. 路由器之间更新LSU后,回复LSAck,后置位为`FULL`
 
+# OSPF同一广播域内DR BDR选举
+
+
 # OSPF报文的确认机制
 
 1. Hello        10s 40s Deadinterval 

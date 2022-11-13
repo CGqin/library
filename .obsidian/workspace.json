@@ -11,9 +11,11 @@
             "id": "05e7474f4f4d60fb",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachment/MA网络.png"
+                "file": "tmp/OSPF.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -81,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachment/MA网络.png"
+                "file": "tmp/OSPF.md"
               }
             }
           }
@@ -105,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachment/MA网络.png",
+                "file": "tmp/OSPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachment/MA网络.png",
+                "file": "tmp/OSPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,6 +151,7 @@
   },
   "active": "05e7474f4f4d60fb",
   "lastOpenFiles": [
+    "Attachment/MA网络.png",
     "tmp/OSPF.md",
     "tmp/tmp.md",
     "Attachment/Pasted Image 20221112203906_672.png",
@@ -157,7 +160,6 @@
     "Attachment/Pasted Image 20221112222236_497.png",
     "Attachment/Pasted Image 20221112222458_589.png",
     "Attachment/Pasted image 20221112224236.png",
-    "Attachment/Pasted image 20221112224244.png",
-    "Attachment/Pasted image 20221112224317.png"
+    "Attachment/Pasted image 20221112224244.png"
   ]
 }

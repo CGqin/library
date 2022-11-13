@@ -116,6 +116,7 @@ Advertising Router
 >**[[MA网络.png|MA网络]]问题**
 >1. n×(n-1)/2个邻接关系，管理复杂。
 >2. 重复的LSA泛洪，造成资源浪费。
+>所以需要选举DR BDR
 
 ## DR与BDR作用
 

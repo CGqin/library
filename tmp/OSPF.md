@@ -92,10 +92,11 @@ Advertising Router
 
 >[[OSPF 的邻居状态]]
 
-**OSPF邻居建立过程图**
+## OSPF邻居建立过程图
+
 ![](https://cgqin.github.io/images//202211122239470.png)
 
-**OSPF邻居建立过程概述**
+## OSPF邻居建立过程概述
 
 1. 两台路由器宣告了OSPF,发送Hello报文
 2. 两台路由器收到对方发来的Hello后,会将对方的router-id放到自己的Hello包作为`active neighbor`,发出.此时邻居状态为`init`,也叫`1-way`
@@ -108,7 +109,8 @@ Advertising Router
 	此时从路由器状态为 `loading` , 主路由器为`exchange`
 7. 从路由器收到DD摘要后, 发送LSR. 之后发送DD报文给主路由器, 这个DD报文没有摘要, `init=0 m=0 ms=0`, 为了告诉主路由摘要已经交换完毕.
 	此时主路由为`loading`
-8. 
+8. 路由器之间更新LSU后,回复LSAck,后置位为`FULL`
+
 # OSPF报文的确认机制
 
 # 报文中的MTU

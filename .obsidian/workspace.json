@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "9573262e14787a06",
+            "id": "f66a437b3ff5dedf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -162,17 +162,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9573262e14787a06",
+  "active": "f66a437b3ff5dedf",
   "lastOpenFiles": [
     "tmp/网络类型.md",
-    "tmp/OSPF.md",
+    "Excalidraw/OSPF邻居建立过程图.png",
     "Excalidraw/``.md",
-    "Attachment/MA网络.png",
+    "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md",
+    "tmp/OSPF.md",
+    "tmp/路由基础.md",
     "tmp/tmp.md",
+    "Attachment/MA网络.png",
     "Attachment/Pasted Image 20221112203906_672.png",
-    "Attachment/Pasted image 20221112214604.png",
-    "Attachment/Pasted Image 20221112221858_452.png",
-    "Attachment/Pasted Image 20221112222236_497.png",
-    "Attachment/Pasted Image 20221112222458_589.png"
+    "Attachment/Pasted image 20221112214604.png"
   ]
 }

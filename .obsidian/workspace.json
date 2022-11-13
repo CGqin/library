@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/网络类型.md"
+                "file": "tmp/tmp.md"
               }
             }
           }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/网络类型.md",
+                "file": "tmp/tmp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/网络类型.md",
+                "file": "tmp/tmp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,8 +162,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a61942c4f75a837f",
+  "active": "9573262e14787a06",
   "lastOpenFiles": [
+    "tmp/网络类型.md",
     "tmp/OSPF.md",
     "Excalidraw/``.md",
     "Attachment/MA网络.png",
@@ -172,7 +173,6 @@
     "Attachment/Pasted image 20221112214604.png",
     "Attachment/Pasted Image 20221112221858_452.png",
     "Attachment/Pasted Image 20221112222236_497.png",
-    "Attachment/Pasted Image 20221112222458_589.png",
-    "Attachment/Pasted image 20221112224236.png"
+    "Attachment/Pasted Image 20221112222458_589.png"
   ]
 }

@@ -117,7 +117,6 @@ Advertising Router
 >1. n×(n-1)/2个邻接关系，管理复杂。
 >2. 重复的LSA泛洪，造成资源浪费。
 
-
 ## DR与BDR作用
 
 - 减少邻接关系
@@ -127,6 +126,7 @@ Advertising Router
 
 - 接口的DR优先级越大越优先。 (Hello报文中的 `router PRI` 字段)
 - 接口的DR优先级相等时，Router ID越大越优先。
+
 # OSPF报文的确认机制
 
 1. Hello        10s 40s Deadinterval 

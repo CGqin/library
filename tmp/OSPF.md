@@ -97,7 +97,8 @@ Advertising Router
 
 **OSPF邻居建立过程概述**
 
-1. 两台
+1. 两台路由器宣告了OSPF,发送Hello报文
+2. 两台路由器收到
 
 # OSPF报文的确认机制
 

@@ -102,8 +102,9 @@ Advertising Router
 3. 两台路由器再次收到对方发来的携带了`active neighbor`为自己router-id的Hello包以后,建立邻居.此时邻居状态为`2-way`
 	(从init到2-way这个阶段,OSPF要判断是否和邻居建立邻接关系.也决定着路由器是否要发送DD报文给邻居)
 4. 两台路由器分别发送DD报文, `init=1 m=1 ms=1` 开始选主从, 两台路由器都认为自己是主, 此时邻居状态为`exstart`
-5. 
-
+5. 比较router-id后, 从路由器开始发送DD-LSA摘要信息, `init=0 m=0 ms=0` (m取决于后续是否还有摘要信息). 
+	此时从路由器状态为`exchange`, 主路由器仍为`exstart`
+6. 
 # OSPF报文的确认机制
 
 # 报文中的MTU

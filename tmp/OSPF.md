@@ -113,7 +113,10 @@ Advertising Router
 
 # OSPF同一广播域内DR BDR选举
 
+## 选举规则
 
+- 接口的DR优先级越大越优先。 
+- 接口的DR优先级相等时，Router ID越大越优先。
 # OSPF报文的确认机制
 
 1. Hello        10s 40s Deadinterval 

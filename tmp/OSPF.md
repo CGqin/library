@@ -113,9 +113,17 @@ Advertising Router
 
 # OSPF同一广播域内DR BDR选举
 
+>MA网络
+
+
+## DR与BDR作用
+
+- 减少邻接关系
+- 降低OSPF协议流量
+
 ## 选举规则
 
-- 接口的DR优先级越大越优先。 
+- 接口的DR优先级越大越优先。 (Hello报文中的 `router PRI` 字段)
 - 接口的DR优先级相等时，Router ID越大越优先。
 # OSPF报文的确认机制
 

@@ -98,7 +98,8 @@ Advertising Router
 **OSPF邻居建立过程概述**
 
 1. 两台路由器宣告了OSPF,发送Hello报文
-2. 两台路由器收到
+2. 两台路由器收到对方发来的Hello后,会将对方的router-id放到自己的Hello包作为active neighbor,发出.此时邻居状态为init,也叫1-way
+3. 两台路由器再次收到对方发来的携带了active neighbor 
 
 # OSPF报文的确认机制
 

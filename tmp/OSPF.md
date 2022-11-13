@@ -113,7 +113,7 @@ Advertising Router
 
 # OSPF报文的确认机制
 
-
+1. Hello报文            
 
 # 报文中的MTU
 

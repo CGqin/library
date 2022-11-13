@@ -113,8 +113,9 @@ Advertising Router
 
 # OSPF同一广播域内DR BDR选举
 
->MA网络问题
->1. 
+>**MA网络问题**
+>1. n×(n-1)/2个邻接关系，管理复杂。
+>2. 重复的LSA泛洪，造成资源浪费。
 
 
 ## DR与BDR作用

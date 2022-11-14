@@ -175,7 +175,7 @@ R1--->R2 最后一个DD，从路由器认为LSA摘要全部交换完毕，发送
 
 单链路状态为以太网时OSPF会认为数据类型时Broadcast
 需要选举DR和BDR
-hello时间10s，Dead时间40s
+==hello时间10s，Dead时间40s==
 DR需要和其他接口角色建立FULL关系
 BDR需要和其他接口角色建立FULL关系
 DRother和DRother建立2way
@@ -200,13 +200,16 @@ DR和BDR同时监听224.0.0.5和0.6两个组播地址，小弟只监听224.0.0.5
 如果需要建立NBMA网络类型的邻居，需要使用peer ip来指定单播邻居，只有指定的单播邻居IP，收到hello报文
 所有报文通过单播方式发送
 需要选举DR和BDR
-hello时间30s，dead时间120s
+==hello时间30s，dead时间120s==
 DR和任何角色都要建立FULL，BDR和任何角色都要建立FULL，小弟之间不需要建立FULL
 
 ## 3.点到点(P2P)
 
 如果链路层协议为PPP HDLC，OSPF会认为网络类型为P2P
-hello时间10s，dead时间40s
+==hello时间10s，dead时间40s==
 不需要选举DR和BDR
 直接建立FULL关系
 所有报文是通过224.0.0.5组播更新
+
+## 4. 点到多点(P2MP)
+

@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/tmp.md"
+                "file": "tmp/OSPF.md"
               }
             }
           }
@@ -120,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/tmp.md",
+                "file": "tmp/OSPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/tmp.md",
+                "file": "tmp/OSPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,11 +161,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f66a437b3ff5dedf",
+  "active": "05e7474f4f4d60fb",
   "lastOpenFiles": [
-    "tmp/OSPF.md",
-    "tmp/tmp.md",
     "tmp/网络类型.md",
+    "tmp/tmp.md",
+    "tmp/OSPF.md",
     "Excalidraw/OSPF邻居建立过程图.png",
     "Excalidraw/``.md",
     "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md",

@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/OSPF.md"
+                "file": "tmp/网络类型.md"
               }
             }
           }
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/OSPF.md",
+                "file": "tmp/网络类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/OSPF.md",
+                "file": "tmp/网络类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,17 +162,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "05e7474f4f4d60fb",
+  "active": "a61942c4f75a837f",
   "lastOpenFiles": [
-    "tmp/网络类型.md",
     "tmp/tmp.md",
     "tmp/OSPF.md",
-    "Excalidraw/OSPF邻居建立过程图.png",
-    "Excalidraw/``.md",
-    "Excalidraw/Drawing 2022-11-12 21.46.50.excalidraw.md",
-    "tmp/路由基础.md",
-    "Attachment/MA网络.png",
-    "Attachment/Pasted Image 20221112203906_672.png",
-    "Attachment/Pasted image 20221112214604.png"
+    "tmp/网络类型.md",
+    "Docker/Dockerfile.md",
+    "Docker/Docker容器.md",
+    "Docker/Docker镜像.md",
+    "Docker/Docker网络.md",
+    "Docker/Docker安装.md",
+    "Docker/Docker Mount.md",
+    "Excalidraw/OSPF邻居建立过程图.png"
   ]
 }

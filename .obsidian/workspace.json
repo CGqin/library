@@ -88,7 +88,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -150,7 +151,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f66a437b3ff5dedf",
+  "active": "9caccb93003982f6",
   "lastOpenFiles": [
     "tmp/tmp.md",
     "tmp/shell变量.md",

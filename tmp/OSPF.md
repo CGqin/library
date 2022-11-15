@@ -263,3 +263,5 @@ ospf 1 router-id 1.1.1.1
 - 7类LSA:NSSA external link states
 - 其他LSA:6类（组播OSPF）8类9类(OSPFv3）10类11类(MPLS)
 
+# LSA头部信息
+

@@ -265,3 +265,17 @@ ospf 1 router-id 1.1.1.1
 
 # LSA头部信息
 
+LSA头部信息：
+Ls age                                   LSA的老化时间
+option                                   用来描述特殊区域的
+LS Type                                 LSA类型     router-lsa代表1类LSA，叫做路由器
+LINK State ID                        LSA的名字  不同类型的LSA取值不同
+ADvertise ROUTER
+通告者 发出该LSA的路由器router-id
+SEQ
+序列号 用来比较LSA新旧
+Chechsum
+校验和
+口 用来比较LSA新I旧
+Length
+长度

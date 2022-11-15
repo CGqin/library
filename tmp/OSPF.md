@@ -283,3 +283,5 @@ Length                                  长度
 2. LS State ID
 3. ADV router
 
+# LSDB同步原则
+

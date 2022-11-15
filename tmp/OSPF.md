@@ -287,5 +287,10 @@ Length                                  长度
 
 ![](https://cgqin.github.io/images//202211152217979.png)
 
-# OSPF域内计算
+# OSPF区域划分
+
+- 骨干区域
+- 非骨干区域
+
+# 1类LSA
 

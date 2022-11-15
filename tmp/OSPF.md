@@ -242,6 +242,9 @@ Hello报文通过224.0.0.5组播更新，其他所有报文通过单播更新
 
 配置了静默接口的接口，只会生成LSA，==不会收发OSPF报文==
 
+**静默接口配置**
+
+
 # LSA的种类
 
 - 1类LSA: Router LSA
@@ -250,4 +253,5 @@ Hello报文通过224.0.0.5组播更新，其他所有报文通过单播更新
 - 4类LSA: ASBR summary link states
 - 5类LSA: AS external link states
 - 7类LSA:NSSA external link states
+- 其他LSA:6类（组播OSPF）8类9类(OSPFv3）10类11类(MPLS)
 

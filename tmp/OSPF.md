@@ -247,6 +247,7 @@ Hello报文通过224.0.0.5组播更新，其他所有报文通过单播更新
 ```
 ospf 1 router-id 1.1.1.1
 	silent-interface all        // 宣告所有接口为静态接口
+	undo silent-interface GigabitEthernet0/0/0          // 开放非静默接口
 	area 0.0.0.0
 		network 12.1.1.1 0.0.0.0
 ```

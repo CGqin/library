@@ -11,11 +11,9 @@
             "id": "e2518eb9deca4ea8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "tmp/OSPF.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2022-11-16 22.19.56.excalidraw.md"
               }
             }
           }
@@ -71,17 +69,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/OSPF.md"
+                "file": "Excalidraw/Drawing 2022-11-16 22.19.56.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a3a333bb29b5dfd2",
@@ -97,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/OSPF.md",
+                "file": "Excalidraw/Drawing 2022-11-16 22.19.56.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/OSPF.md",
+                "file": "Excalidraw/Drawing 2022-11-16 22.19.56.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +135,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e2518eb9deca4ea8",
+  "active": "8810c2df1e7775f9",
   "lastOpenFiles": [
     "tmp/OSPF.md",
     "tmp/路由基础.md",

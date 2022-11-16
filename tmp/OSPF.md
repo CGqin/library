@@ -370,7 +370,7 @@ Priority  : Low
 2. 再画叶子
 3. 计算根节点到每一个叶子的开销, 选出根到相同叶子开销最小的, 加入OSPF路由表
 
-![]()
-
+![](https://cgqin.github.io/images//202211162250253.png)
+![](https://cgqin.github.io/images//202211162251323.png)
 # 3类LSA()
 

@@ -11,9 +11,11 @@
             "id": "e2518eb9deca4ea8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-16 22.19.56.excalidraw.md"
+                "file": "tmp/OSPF.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -69,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-16 22.19.56.excalidraw.md"
+                "file": "tmp/OSPF.md"
               }
             }
           }
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-16 22.19.56.excalidraw.md",
+                "file": "tmp/OSPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-16 22.19.56.excalidraw.md",
+                "file": "tmp/OSPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8810c2df1e7775f9",
+  "active": "e2518eb9deca4ea8",
   "lastOpenFiles": [
+    "Excalidraw/OSPF邻居建立过程图.png",
+    "Attachment/最短路径生成树候选表.png",
+    "Excalidraw/Drawing 2022-11-16 22.19.56.excalidraw.md",
     "tmp/OSPF.md",
     "tmp/路由基础.md",
     "tmp/tmp.md",
     "tmp/shell变量.md",
     "tmp/网络类型.md",
     "tmp/DAY8.md",
-    "DD报文的隐式确认过程.md",
-    "Docker/Dockerfile.md",
-    "Docker/Docker容器.md",
-    "Docker/Docker镜像.md"
+    "DD报文的隐式确认过程.md"
   ]
 }

@@ -11,9 +11,11 @@
             "id": "e2518eb9deca4ea8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachment/最短路径生成树.png"
+                "file": "tmp/OSPF.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -69,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachment/最短路径生成树.png"
+                "file": "tmp/OSPF.md"
               }
             }
           }
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachment/最短路径生成树.png",
+                "file": "tmp/OSPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachment/最短路径生成树.png",
+                "file": "tmp/OSPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,6 +139,7 @@
   },
   "active": "e2518eb9deca4ea8",
   "lastOpenFiles": [
+    "Attachment/最短路径生成树.png",
     "Attachment/最短路径生成树候选表.png",
     "tmp/OSPF.md",
     "Excalidraw/OSPF邻居建立过程图.png",
@@ -145,7 +148,6 @@
     "tmp/tmp.md",
     "tmp/shell变量.md",
     "tmp/网络类型.md",
-    "tmp/DAY8.md",
-    "DD报文的隐式确认过程.md"
+    "tmp/DAY8.md"
   ]
 }

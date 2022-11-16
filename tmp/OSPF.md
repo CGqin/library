@@ -292,7 +292,7 @@ Length                                  长度
 - 骨干区域
 - 非骨干区域
 
-# 1类LSA
+# 1类LSA(Router)
 
 当路由器的一个接口宣告进了OSPF，那么这个接口就会生成链路状态，存放到LSA当中，
 每个路由器都会生成一个1类LSA，==用来描述自身的直连链路状态==
@@ -328,4 +328,22 @@ Link count: 2
      Data   : 192.168.1.2  用来描述自身直连伪节点的接口IP地址 
      Metric : 1            用来描述自身到达伪节点的开销值
 
+```
+
+# 2类LSA (Network)
+
+```
+Type      : Network               LSA类型，用network来标识2类LSA，用来描述伪节点的信息
+Ls id     : 192.168.1.4           LSA名字，在不同类型的LSA中取值不同，2类LSA用DR的接口IP地址充当
+Adv rtr   : 4.4.4.4               通告者,DR所在路由器的router-id来标识
+Ls age    : 1165                  老化时间
+Len       : 36                    报文长度
+Options   :  E                    特殊区域标识
+seq#      : 80000004              序列号
+chksum    : 0x5a60                校验和
+Net mask  : 255.255.255.0         2类LSA不仅可以标识邻居信息（树干信息），同时也可以描述路由信息（叶子）
+Priority  : Low
+   Attached Router    2.2.2.2     用来描述树干信息的，描述该伪节点直连的邻居信息
+   Attached Router    3.3.3.3     用来描述树干信息的，描述该伪节点直连的邻居信息
+   Attached Router    4.4.4.4     用来描述树干信息的，描述该伪节点直连的邻居信息
 ```

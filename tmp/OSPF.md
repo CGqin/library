@@ -324,7 +324,7 @@ Link count: 2
 
 
 3. 当link-type为TransNet:  用来描述直连链路上网络类型为广播或者NBMA的邻居信息
-   * Link ID: 192.168.1.2  用来描述为节点的router-id，用DR的接口IP来充当
+   * Link ID: 192.168.1.2  用来描述伪节点的router-id，用DR的接口IP来充当
      Data   : 192.168.1.2  用来描述自身直连伪节点的接口IP地址 
      Metric : 1            用来描述自身到达伪节点的开销值
 

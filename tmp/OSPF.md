@@ -332,7 +332,10 @@ Link count: 2
      Metric : 1            用来描述自身到达伪节点的开销值
 
 
-4. 
+4. 当link-type为vlink:     用来描述网络类型为虚链路的邻居信息（树干)
+     link-id:              用来描述虚链路邻居信息（router-id)
+     data:                 用来描述自身直连该邻居接口的IP地址
+     metric:               用来描述自身到达该虚链路邻居的开销值
 ```
 
 # 2类LSA (Network)

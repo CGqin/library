@@ -297,4 +297,14 @@ Length                                  长度
 当路由器的一个接口宣告进了OSPF，那么这个接口就会生成链路状态，存放到LSA当中，
 每个路由器都会生成一个1类LSA，==用来描述自身的直连链路状态==
 
- 
+```
+Type      : Router              LSA类型，router代表1类LSA，用来描述路由器自身直连接口的链路状态信息
+Ls id     : 1.1.1.1             链路状态ID，也就是这条LSA的名字，在1类LSA中，使用本路由器的router-id充当
+Adv rtr   : 1.1.1.1             通告者，产生这条LSA的路由器router-id
+Ls age    : 140                 老化时间
+Len       : 48                  报文长度
+Options   :  E                  特殊区域标识 E = 1 代表普通区域 E = 0 代表末节区域  E=0且N=1 代表NSSA区域
+seq#      : 80000002            序列号 
+chksum    : 0xdf28              校验和
+Link count: 2
+```

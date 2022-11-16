@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a3a333bb29b5dfd2",
@@ -138,7 +139,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9caccb93003982f6",
+  "active": "e2518eb9deca4ea8",
   "lastOpenFiles": [
     "tmp/OSPF.md",
     "tmp/路由基础.md",

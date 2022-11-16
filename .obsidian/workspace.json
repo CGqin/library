@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ee1e881c99ce3f08",
+        "id": "0b671d16afa7a812",
         "type": "tabs",
         "children": [
           {
-            "id": "f66a437b3ff5dedf",
+            "id": "e2518eb9deca4ea8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -75,8 +75,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,10 +137,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9caccb93003982f6",
+  "active": "e2518eb9deca4ea8",
   "lastOpenFiles": [
-    "tmp/路由基础.md",
     "tmp/OSPF.md",
+    "tmp/路由基础.md",
     "tmp/tmp.md",
     "tmp/shell变量.md",
     "tmp/网络类型.md",

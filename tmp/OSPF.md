@@ -372,5 +372,27 @@ Priority  : Low
 ![候选表](https://cgqin.github.io/images//202211162251323.png)
 ![最短路径生成树](https://cgqin.github.io/images//202211162250253.png)
 
+# OSPF域间路由计算
+
+## OSPF区域设计原则
+
+1. 骨干区域有且只能有一个
+2. 非骨干区域必须和骨干区域相连
+3. 多区域的时候，必须有骨干区域
+区域编号0，为骨干区域
+区域编号非0，为非骨干区域
+
 # 3类LSA()
 
+```
+Type      : Sum-Net            LSA类型，sum-net表示三类LSA，用来描述区域间的路由信息
+Ls id     : 3.3.3.3            3类LSA使用该路由信息的网络号表示
+Adv rtr   : 2.2.2.2            通告者：产生这条LSA的路由器（ABR）
+Ls age    : 571                老化时间
+Len       : 28                 长度
+Options   :  E                 特殊区域标识
+seq#      : 80000001           序列号
+chksum    : 0xae99             校验和
+Net mask  : 255.255.255.255    用来描述这条路由信息的网络掩码
+Tos 0  metric: 1               ABR到达这个目的路由的开销值
+```

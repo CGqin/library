@@ -369,8 +369,8 @@ Priority  : Low
 > 候选表中出现总开销相同的, 将两个节点都画为树干
 2. 再画叶子
 3. 计算根节点到每一个叶子的开销, 选出根到相同叶子开销最小的, 加入OSPF路由表
-![](https://cgqin.github.io/images//202211162251323.png)
-![](https://cgqin.github.io/images//202211162250253.png)
+![候选表](https://cgqin.github.io/images//202211162251323.png)
+![最短路径生成树](https://cgqin.github.io/images//202211162250253.png)
 
 # 3类LSA()
 

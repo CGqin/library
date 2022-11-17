@@ -382,7 +382,7 @@ Priority  : Low
 区域编号0，为骨干区域
 区域编号非0，为非骨干区域
 
-# 3类LSA()
+# 3类LSA(Sum-Net)
 
 ```
 Type      : Sum-Net            LSA类型，sum-net表示三类LSA，用来描述区域间的路由信息
@@ -396,3 +396,5 @@ chksum    : 0xae99             校验和
 Net mask  : 255.255.255.255    用来描述这条路由信息的网络掩码
 Tos 0  metric: 1               ABR到达这个目的路由的开销值
 ```
+
+# 

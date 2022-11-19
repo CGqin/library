@@ -457,6 +457,7 @@ ospf 1
 ## 配置
 
 ```
-[R1]ospf 1
-
+ospf 1                      //进入OSPF进程
+ import-route static        //引入外部路由
 ```
+

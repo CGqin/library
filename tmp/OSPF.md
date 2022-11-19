@@ -463,3 +463,4 @@ ospf 1                      //进入OSPF进程
 
 ## ASBR
 
+当OSPF路由器使用了命令import-route以后，那么路由器就会在自己的1类LSA中置位ASBR。不论他是否真正引入的外部路由。

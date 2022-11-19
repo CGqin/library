@@ -471,3 +471,5 @@ Flags：0x02，(E）AS boundary router
 .... ..1.=（E）AS boundary router:Yes
 .... ...0= (B)Areaborder router:No
 ```
+
+

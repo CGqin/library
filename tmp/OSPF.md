@@ -555,5 +555,11 @@ FA地址：[[OSPF#5类LSA(External)|5类LSA]]的一个参数,
 
 ## OSPF默认路由
 
+通告
+
 ## 配置
 
+```
+ospf 1                                //进入OSPF进程
+ default-route-advertise              // 通告默认路由
+```

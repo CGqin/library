@@ -474,4 +474,22 @@ Flags：0x02，(E）AS boundary router
 
 ## 5类LSA(External)
 
-路由器OSPF进程引入外部路由后, 会查看全局路由表,如果路由表中存在要引入的路由,会通过5类LSA通告**邻接**的路由器
+路由器OSPF进程开启外部路由引入后, 会查看全局路由表,如果路由表中存在要引入的路由,会通过5类LSA通告**邻接**的路由器
+邻接路由器收到5类LSA后同样会通告**邻接**路由器
+```
+Type      : External               LSA类型，external代表外部路由 
+Ls id     : 5.5.5.5                使用外部路由的网络号来填充
+Adv rtr   : 4.4.4.4                通告者，使用ASBR路由器的router-id填充
+Ls age    : 708 
+Len       : 36 
+Options   :  E  
+seq#      : 80000001 
+chksum    : 0x9f0d
+Net mask  : 255.255.255.255        描述了该外部路由器的网络掩码 
+TOS 0  Metric: 1                   描述了该5类LSA到达目标网络的开销值cost
+E type    : 2                      描述了该5类LSA的开销值类型
+Forwarding Address : 0.0.0.0       转发地址：当转发地址为0.0.0.0时，那么路由器在计算5类LSA时回去找ASBR计算
+                                            当转发地址为具体IP时，那么路由器在计算5类LSA时，就不在找ASBR了，
+	                                            会去通过SPF算法直接找FA地址作为下一跳
+
+```

@@ -19,40 +19,21 @@
 - **index.js**
 ```js
 Page({
-
-  
-
   submitFn(e){
-
       var name = e.detail.value.username
-
       var psw = e.detail.value.password
 
-  
-
       if (name=='admin' && psw == '123'){
-
         wx.showToast({
-
           title: '登录成功',
-
           icon: 'success'
-
         })
-
       }else{
-
         wx.showToast({
-
           title: '用户名或密码错误',
-
           icon: 'error'
-
         })
-
-       }
-
+	   }
   }
-
 })
 ```

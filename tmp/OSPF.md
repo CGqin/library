@@ -319,7 +319,6 @@ Len       : 48                  报文长度
 Options   :  E                  特殊区域标识 E = 1 代表普通区域 E = 0 代表末节区域  E=0且N=1 代表NSSA区域
 seq#      : 80000002            序列号 
 chksum    : 0xdf28              校验和  
-Flag       
 Link count: 2
 ```
 
@@ -465,3 +464,6 @@ ospf 1                      //进入OSPF进程
 ## ASBR
 
 当OSPF路由器使用了命令import-route以后，那么路由器就会在自己的1类LSA中置位ASBR。不论他是否真正引入的外部路由。
+```
+
+```

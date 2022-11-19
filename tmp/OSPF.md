@@ -474,3 +474,4 @@ Flags：0x02，(E）AS boundary router
 
 ## 5类LSA(External)
 
+路由器OSPF进程引入外部路由后, 会查看路由表

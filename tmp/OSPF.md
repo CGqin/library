@@ -555,3 +555,5 @@ FA地址：[[OSPF#5类LSA(External)|5类LSA]]的一个参数,
 
 ## OSPF默认路由
 
+## 配置
+

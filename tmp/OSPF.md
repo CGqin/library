@@ -492,4 +492,10 @@ Forwarding Address : 0.0.0.0       转发地址：当转发地址为0.0.0.0时�
                                             当转发地址为具体IP时，那么路由器在计算5类LSA时，就不在找ASBR了，
 	                                            会去通过SPF算法直接找FA地址作为下一跳
 
+
+type 2:OSPF引入的外部路由默认type类型为2，当路由器计算type2的外部路由时，不会计算OSPF内部的cost，只计算ASBR到达目标网络的cost
+type 1:OSPF引入外部路由时，可以通过命令更改type类型，当路由器计算type1的外部路由时，会同时计算OSPF内部cost+ASBR到达目标网络的cost
+使用场景：当不在意OSPF内部的次优路径问题时可以使用type2
+          当在意OSPF内部次优路径问题时需要使用type1
+          如果在数据库中存在相同目的的5类LSA且type不一致时，type1优于type2
 ```

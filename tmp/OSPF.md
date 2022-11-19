@@ -472,4 +472,5 @@ Flags：0x02，(E）AS boundary router
 .... ...0= (B)Areaborder router:No
 ```
 
+## 5类LSA(External)
 

@@ -318,7 +318,8 @@ Ls age    : 140                 老化时间
 Len       : 48                  报文长度
 Options   :  E                  特殊区域标识 E = 1 代表普通区域 E = 0 代表末节区域  E=0且N=1 代表NSSA区域
 seq#      : 80000002            序列号 
-chksum    : 0xdf28              校验和
+chksum    : 0xdf28              校验和  
+Flag       
 Link count: 2
 ```
 

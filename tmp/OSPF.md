@@ -567,7 +567,9 @@ ospf 1                                //进入OSPF进程
  default-route-advertise always       //带always参数时,不管路由表中有没有默认路由,都会通告默认路由的5类LSA
 ```
 
-# OSPF不同 Site的路由引入
+# OSPF不同Site的路由引入(不同进程路由引入)
 
-同一个路由器不同OSPF进程是不相互干扰的, 不同进程会产生2个不同的LSDB,从而划分出Site
+同一个路由器不同OSPF进程是不相互干扰的, 不同进程会产生2个不同的LSDB 
+
+
 

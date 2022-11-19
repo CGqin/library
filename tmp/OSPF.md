@@ -449,3 +449,4 @@ ospf 1
  area 0.0.0.1                 // 要跨越的区域
   vlink-peer x.x.x.x          // 指定对端路由器router-id
 ```
+

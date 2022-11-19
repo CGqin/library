@@ -557,7 +557,7 @@ FA地址：[[OSPF#5类LSA(External)|5类LSA]]的一个参数,
 
 通告者一般为NAT出口路由器
 ![](https://cgqin.github.io/images//202211191559473.png)
-如图为R3
+如图为==R3==
 
 ## 配置
 

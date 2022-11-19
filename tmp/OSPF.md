@@ -465,5 +465,9 @@ ospf 1                      //进入OSPF进程
 
 当OSPF路由器使用了命令import-route以后，那么路由器就会在自己的1类LSA中置位ASBR。不论他是否真正引入的外部路由。
 ```
-
+1类LAS报文Flag中的 AS boundary router 置为1
+Flags：0x02，(E）AS boundary router
+.... .0..=（V）Virtual link endpoint:No
+.... ..1.=（E）AS boundary router:Yes
+.... ...0= (B)Areaborder router:No
 ```

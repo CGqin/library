@@ -579,7 +579,7 @@ ospf 1                                //进入OSPF进程
 ```
 [R3]
   ospf 1
-    import-route ospf 2 +路由策略
+    import-route ospf 2 (+路由策略)
 ```
 
 

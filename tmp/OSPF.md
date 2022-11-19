@@ -450,3 +450,5 @@ ospf 1
   vlink-peer x.x.x.x          // 指定对端路由器router-id
 ```
 
+# OSPF外部路由
+

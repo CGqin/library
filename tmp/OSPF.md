@@ -500,4 +500,18 @@ type 1:OSPF引入外部路由时，可以通过命令更改type类型，当路�
           如果在数据库中存在相同目的的5类LSA且type不一致时，type1优于type2
 ```
 
-## 4类LSA 
+## 4类LSA(Sum-Asbr) 
+
+4类LSA作用: 
+
+```
+Type      : Sum-Asbr     LSA类型，ASBR表示4类LSA，用来描述ASBR信息
+Ls id     : 4.4.4.4      使用ASBR路由器的router-id填充
+Adv rtr   : 3.3.3.3      通告者，产生这条4类LSA的路由器router-id（一般由ABR产生）
+Ls age    : 1784 
+Len       : 28 
+Options   :  E  
+seq#      : 80000002 
+chksum    : 0x52eb
+Tos 0  metric: 1         用来描述ABR路由器到达ASBR路由器的开销值
+```

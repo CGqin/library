@@ -458,6 +458,6 @@ ospf 1
 
 ```
 ospf 1                      //进入OSPF进程
- import-route static        //引入外部路由
+ import-route ?        //引入外部路由
 ```
 

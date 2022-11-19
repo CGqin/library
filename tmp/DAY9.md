@@ -7,7 +7,7 @@
 
 ## 示例
 
-- **index.wxml**
+- index.wxml
 ```xml
 <form bindsubmit="submitFn">
   用户名: <input type="text" name="username" style="margin-left: 70px;margin-top: -20px;"/>
@@ -15,7 +15,7 @@
   <button type="primary" form-type="submit">submit</button>
 </form>```
 
-- **index.js**
+- index.js
 ```js
 Page({
   submitFn(e){

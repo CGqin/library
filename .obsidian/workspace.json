@@ -75,8 +75,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,7 +137,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9caccb93003982f6",
+  "active": "8810c2df1e7775f9",
   "lastOpenFiles": [
     "tmp/OSPF.md",
     "Attachment/最短路径生成树.png",

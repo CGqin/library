@@ -521,6 +521,7 @@ Tos 0  metric: 1         用来描述ABR路由器到达ASBR路由器的开销值
 
 ## 外部路由引入过程
 
+![](https://cgqin.github.io/images//202211191513832.png)
 1. 在路由器4的OSPF进程中使用命令import-route static来引入路由表中的静态路由
 2. R4会触发更新2条LSU，其中第一条是更新了R4的1类LSA其中的ASBR置位，来告诉域内小伙伴，我变成ASBR了，我要引入外部路由了
    第二条LSU是更新的外部路由（5类LSA）

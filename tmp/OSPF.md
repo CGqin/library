@@ -571,5 +571,6 @@ ospf 1                                //进入OSPF进程
 
 同一个路由器不同OSPF进程是不相互干扰的, 不同进程会产生2个不同的LSDB 
 
-
+![](https://cgqin.github.io/images//202211191612769.png)
+如图,
 

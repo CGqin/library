@@ -567,3 +567,6 @@ ospf 1                                //进入OSPF进程
  default-route-advertise always       //带always参数时,不管路由表中有没有默认路由,都会通告默认路由的5类LSA
 ```
 
+# OSPF不同 Site的路由引入
+
+同一个路由器下的不同OSPF进程

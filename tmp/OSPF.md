@@ -576,5 +576,10 @@ ospf 1                                //进入OSPF进程
 
 ## 引入配置
 
+```
+[R3]
+  ospf 1
+    import-route ospf 2 +路由策略
+```
 
 

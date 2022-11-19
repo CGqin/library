@@ -459,6 +459,7 @@ ospf 1
 ```
 ospf 1                      //进入OSPF进程
  import-route ?        //引入外部路由
+ import-route static type 1/2        // 更改开销类型
 ```
 
 ## ASBR

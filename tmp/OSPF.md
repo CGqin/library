@@ -461,3 +461,5 @@ ospf 1                      //进入OSPF进程
  import-route ?        //引入外部路由
 ```
 
+## ASBR
+

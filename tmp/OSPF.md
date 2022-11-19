@@ -502,7 +502,9 @@ type 1:OSPF引入外部路由时，可以通过命令更改type类型，当路�
 
 ## 4类LSA(Sum-Asbr) 
 
-4类LSA作用: 
+4类LSA作用: 让其他区域的路由器在计算5类LSA时，可以找到ASBR在哪
+ASBR的介绍信
+
 
 ```
 Type      : Sum-Asbr     LSA类型，ASBR表示4类LSA，用来描述ASBR信息

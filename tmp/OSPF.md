@@ -706,3 +706,6 @@ ospf 1
  area 0.0.0.1
   nssa
 ```
+
+## 完全NSSA
+

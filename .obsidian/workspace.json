@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "04f0f990fb66876f",
+        "id": "b54b61140e9f92b2",
         "type": "tabs",
         "children": [
           {
-            "id": "b61c90db9759afb6",
+            "id": "142a381743de90d0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -129,7 +129,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b61c90db9759afb6",
+  "active": "8810c2df1e7775f9",
   "lastOpenFiles": [
     "tmp/DAY9.md",
     "Excalidraw/``.md",

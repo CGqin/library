@@ -75,7 +75,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -137,7 +138,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "142a381743de90d0",
+  "active": "9caccb93003982f6",
   "lastOpenFiles": [
     "tmp/DAY9.md",
     "Excalidraw/``.md",

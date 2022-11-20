@@ -654,3 +654,16 @@ ospf 1
 
 ## NSSA
 
+
+### NSSA配置
+
+```
+[IR]        //IR的区域视图下敲nssa
+ospf 1 
+ area 0.0.0.1
+  nssa
+[ABR]       //IR的区域视图下敲nssa
+ospf 1
+ area 0.0.0.1
+  nssa
+```

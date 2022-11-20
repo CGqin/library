@@ -655,6 +655,7 @@ ospf 1
 ## NSSA
 
 在stub的基础下,自身又要引入外部路由
+![](https://cgqin.github.io/images//202211201630935.png)
 
 
 ### NSSA配置

@@ -658,7 +658,9 @@ ospf 1
 ![](https://cgqin.github.io/images//202211201630935.png)
 NSSA区域不存在4类和5类LSA 
 R1 引入外部路由后会成为ASBR, 然后把引入路由信息转换成7类LSA, 并在NSSA区域内泛洪,
-R8 收到7类LSA后,会成为ASBR, 然后将7类LSA转换成5类LSA泛洪,
+R8 收到7类LSA后,会成为ASBR, 然后将7类LSA转换成5类LSA泛洪 
+	存在多ABR的时候,router-id大的会执行7类转5类的操作,即只有R8转换7类LSA,R2不做任何工作,但是他具备ASBR的能力，当router-id大的ABR挂掉时，要承接7转5的备份工作
+
 
 
 ### NSSA配置

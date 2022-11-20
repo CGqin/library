@@ -598,5 +598,12 @@ ospf 1                                //进入OSPF进程
 ### Stub配置
 
 ```
-
+[IR]        //IR和ABR的区域视图下敲Stub
+ospf 1 router-id 1.1.1.1
+ area 0.0.0.1
+  stub
+[ABR]
+ospf 1 router-id 1.1.1.1
+ area 0.0.0.1
+  stub
 ```

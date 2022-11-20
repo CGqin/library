@@ -712,3 +712,19 @@ ospf 1
 1. 完全NSSA区域继承了NSSA区域的所有特性
 2. 完全NSSA区域的ABR会生成2条缺省。分别是3类缺省和7类缺省，这种情况仅在华为设备中存在。
    路由器会使用3类缺省计算默认路由
+>由此可以得出一个结论：
+>1类2类LSA > 3类 > 外部路由（5类和7类）
+>外部路由type1 > type2
+
+### 完全NSSA配置
+
+```
+[IR]        //IR的区域视图下敲Stub
+ospf 1 
+ area 0.0.0.1
+  nssa
+[ABR]       //IR的区域视图下敲stub no-sumary
+ospf 1
+ area 0.0.0.1
+  nssa no-sumary
+```

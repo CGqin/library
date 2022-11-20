@@ -652,3 +652,5 @@ ospf 1
   stub no-sumary
 ```
 
+## NSSA
+

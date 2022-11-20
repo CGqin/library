@@ -593,6 +593,17 @@ ospf 1                                //进入OSPF进程
 3. NSSA       非完全末节区域
 4. 完全NSSA   完全非完全末节区域
 
+## 不同区域hello报文option
+
+```
+普通区域：      E = 1  N = 0
+Stub:          E = 0  N = 0
+完全Stub:      E = 0  N = 0
+NSSA:         E = 0  N = 1
+完全NSSA：     E = 0  N = 1
+```
+
+
 ## Stub
 
 ==不处理外部路由==

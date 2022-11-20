@@ -582,4 +582,5 @@ ospf 1                                //进入OSPF进程
     import-route ospf 2 (+路由策略)
 ```
 
+# 特殊区域
 

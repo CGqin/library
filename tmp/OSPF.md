@@ -657,7 +657,8 @@ ospf 1
 在stub的基础下,自身又要引入外部路由
 ![](https://cgqin.github.io/images//202211201630935.png)
 NSSA区域不存在4类和5类LSA 
-R1 引入外部路由后会成为ASBR,
+R1 引入外部路由后会成为ASBR, 然后把引入路由信息转换成7类LSA, 并在NSSA区域内泛洪,
+R2 和 R8 收到7类LSA后,会成为ASBR, 然后将7类LSA转换成5类LSA泛洪,
 
 
 ### NSSA配置

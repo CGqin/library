@@ -613,6 +613,15 @@ ospf 1
 
 ### 完全Stub区域配置
 
+在IR的区域视图下敲stub，在ABR的区域视图下敲stub no-sumary
+```
+[IR]        //IR的区域视图下敲Stub
+ospf 1 
+ area 0.0.0.1
+  stub
+[ABR]       //IR的区域视图下敲stub no-sumary
+ospf 1
+ area 0.0.0.1
+  stub no-sumary
 ```
 
-```

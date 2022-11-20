@@ -656,8 +656,8 @@ ospf 1
 
 在stub的基础下,自身又要引入外部路由
 ![](https://cgqin.github.io/images//202211201630935.png)
-NSSA区域不存在4类和5类LSA
-
+NSSA区域不存在4类和5类LSA 
+R1 引入
 
 
 ### NSSA配置

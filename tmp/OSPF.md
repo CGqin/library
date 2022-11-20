@@ -656,7 +656,8 @@ ospf 1
 
 在stub的基础下,自身又要引入外部路由
 ![](https://cgqin.github.io/images//202211201630935.png)
-ABR不会向NSSA区域内部传递4类和5类LSA
+NSSA区域不存在4类和5类LSA
+
 
 
 ### NSSA配置

@@ -682,7 +682,7 @@ Ls id     : 200.1.1.1             外部路由的网络号
 Adv rtr   : 1.1.1.1               通告者：ASBR的router-id
 Ls age    : 486 
 Len       : 36 
-Options   :  NP                   只有P置位的7类LSA才会被ABR执行7转5操作
+Options   :  NP                   只有P置位的7类LSA才会被ABR执行7转5操作(ABR下发的默认路由不置位,不转换)
 seq#      : 80000001 
 chksum    : 0xc227
 Net mask  : 255.255.255.255       外部路由的网络掩码

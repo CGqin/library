@@ -596,6 +596,7 @@ ospf 1                                //进入OSPF进程
 ## Stub
 
 不处理外部路由
+stub区域不传递4类和5类LSA
 
 
 ### Stub配置

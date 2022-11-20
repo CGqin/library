@@ -674,6 +674,25 @@ ABR(R2和R8)会产生一条7类缺省LSA，方便NSSA区域内部路由器访问
        如果场景和5类不相同，则取值为路由器最大的环回接口地址作为7类的FA地址。（环回接口必须宣告进OSPF）
        如果没有宣告进OSPF的环回接口，则使用第一个UP的物理接口IP地址作为7类FA地址。
 
+### 7类LSA 
+
+```
+Type      : NSSA                  LSA类型，NSSA代表7类LSA，用来描述NSSA区域引入的外部路由
+Ls id     : 200.1.1.1             外部路由的网络号
+Adv rtr   : 1.1.1.1               通告者：ASBR的router-id
+Ls age    : 486 
+Len       : 36 
+Options   :  NP                   只有P置位的7类LSA才会被ABR执行7转5操作
+seq#      : 80000001 
+chksum    : 0xc227
+Net mask  : 255.255.255.255       外部路由的网络掩码
+TOS 0  Metric: 1                  外部路由的种子度量值
+E type    : 2                     外部路由的开销类型
+Forwarding Address : 12.1.1.1     FA地址
+Tag       : 1                     标记作用，用来防环
+
+对于5类LSA和7类LSA来说，都是外部引入的路由条目，只是所在区域不同。
+```
 
 ### NSSA配置
 

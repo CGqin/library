@@ -595,6 +595,9 @@ ospf 1                                //进入OSPF进程
 
 ## Stub
 
+作用: 
+
+
 ### Stub配置
 
 在IR和ABR的区域视图下敲Stub

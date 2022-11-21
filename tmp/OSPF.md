@@ -761,5 +761,18 @@ ospf 1
 
 # 认证
 
+1. 接口认证
+```
+interface GigabitEthernet0/0/0
+ ip address 34.1.1.3 255.255.255.0
+ ospf authentication-mode md5 1 plain huawei
+```
+2. 区域认证
+```
+area 0.0.0.2
+  authentication-mode md5 1 plain huawei
+  network 34.1.1.4 0.0.0.0
+
+```
 
 

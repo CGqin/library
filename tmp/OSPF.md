@@ -772,6 +772,5 @@ interface GigabitEthernet0/0/0
 area 0.0.0.2
   authentication-mode md5 1 plain huawei
   network 34.1.1.4 0.0.0.0
-
 ```
 备注：如果同时存在接口认证和区域认证，那么接口认证优先于区域认证

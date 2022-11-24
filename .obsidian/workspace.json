@@ -14,12 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "tmp/OSPF.md",
-                "mode": "preview",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c37779fb3f398da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tmp/ISIS.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/OSPF.md"
+                "file": "tmp/ISIS.md"
               }
             }
           }
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/OSPF.md",
+                "file": "tmp/ISIS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/OSPF.md",
+                "file": "tmp/ISIS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,15 +151,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "142a381743de90d0",
+  "active": "9caccb93003982f6",
   "lastOpenFiles": [
+    "tmp/OSPF.md",
     "tmp/DAY9.md",
     "Excalidraw/``.md",
     "Attachment/DAY9.pdf",
     "tmp/DAY5.md",
     "tmp/DAY6.md",
     "tmp/DAY8.md",
-    "tmp/OSPF.md",
     "Attachment/最短路径生成树.png",
     "Attachment/最短路径生成树候选表.png",
     "Excalidraw/OSPF邻居建立过程图.png"

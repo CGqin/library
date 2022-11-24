@@ -99,3 +99,10 @@ level-1/2：和相同区域的L1路由器建立L1邻居，和不同区域的L1�
 2. init：当收到其他路由器发来的第一个hello包（且这个hello包里不包含自己的neighbor信息时）为Init初始状态
 3. up  ：当收到了其他路由器的hello包且报文中包含自己接口Mac地址时（neighbor信息）为up状态。
 
+OSPF的稳定邻居状态为2-WAY和FULL。
+ISIS的稳定邻居状态只有UP（相当于邻接状态）
+
+OSPF和ISIS的区别：
+OSPF在建立2-way状态以后，指定了状态机来同步数据库
+ISIS在建立UP状态以后，没有指定状态机来同步数据库
+

@@ -125,7 +125,7 @@ Advertising Router
 
 ## 选举规则
 
-- 接口的DR优先级越大越优先。 (Hello报文中的 `router PRI` 字段)
+- 接口的DR优先级越大越优先。 ([[OSPF#Hello 包|Hello报文]]中的 `router PRI` 字段)
 - 接口的DR优先级相等时，Router ID越大越优先。
 
 ## 选举过程

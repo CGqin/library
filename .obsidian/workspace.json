@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/RIP配置.md"
+                "file": "tmp/路由策略.md"
               }
             }
           }
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/RIP配置.md",
+                "file": "tmp/路由策略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/RIP配置.md",
+                "file": "tmp/路由策略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +174,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e612cf0e38e88def",
+  "active": "0f73e00076b5162f",
   "lastOpenFiles": [
+    "tmp/RIP配置.md",
     "tmp/路由策略.md",
     "tmp/ISIS.md",
     "tmp/OSPF.md",
@@ -184,7 +185,6 @@
     "Attachment/DAY9.pdf",
     "tmp/DAY5.md",
     "tmp/DAY6.md",
-    "tmp/DAY8.md",
-    "Attachment/最短路径生成树.png"
+    "tmp/DAY8.md"
   ]
 }

@@ -75,7 +75,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -137,7 +138,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1cbb0f63900e65cc",
+  "active": "9caccb93003982f6",
   "lastOpenFiles": [
     "Attachment/Pasted image 20221112214604.png",
     "Attachment/Pasted image 20221119224552.png",

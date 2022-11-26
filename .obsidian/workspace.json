@@ -35,11 +35,9 @@
             "id": "0f73e00076b5162f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "tmp/路由策略.md",
-                "mode": "source",
-                "source": false
+                "file": "Attachment/Pasted Image 20221112203906_672.png"
               }
             }
           },
@@ -55,7 +53,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/OSPF.md"
+                "file": "Attachment/Pasted Image 20221112203906_672.png"
               }
             }
           }
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/OSPF.md",
+                "file": "Attachment/Pasted Image 20221112203906_672.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/OSPF.md",
+                "file": "Attachment/Pasted Image 20221112203906_672.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,17 +172,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "142a381743de90d0",
+  "active": "0f73e00076b5162f",
   "lastOpenFiles": [
-    "tmp/ISIS.md",
-    "tmp/路由策略.md",
-    "tmp/RIP配置.md",
-    "tmp/OSPF.md",
-    "tmp/DAY9.md",
-    "Excalidraw/``.md",
-    "Attachment/DAY9.pdf",
-    "tmp/DAY5.md",
-    "tmp/DAY6.md",
-    "tmp/DAY8.md"
-  ]
-}
+    "Attachment/Pasted image 20221112224244.png",
+    "Attachment/Pasted image 20221112224323.png",
+    "Attachment/Pasted image 20221117190421.png",
+    "Attachment/Pasted image 20221119151346.png",
+    "Attachment/Pasted image 20221119224552.png",
+    "Attachment/Pasted image 20221126162002.png",
+    "Attachment/Pasted image 20221126162009.png",
+    "Attachment/Pasted image 20221126162016.png",
+    "Attachment/Pasted image 20221126162051.png",
+    "Attachment/Pasted image 202211261

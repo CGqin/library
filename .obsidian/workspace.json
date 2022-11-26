@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/路由策略.md"
+                "file": "tmp/OSPF.md"
               }
             }
           }
@@ -132,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/路由策略.md",
+                "file": "tmp/OSPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/路由策略.md",
+                "file": "tmp/OSPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,11 +173,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0f73e00076b5162f",
+  "active": "142a381743de90d0",
   "lastOpenFiles": [
-    "tmp/RIP配置.md",
-    "tmp/路由策略.md",
     "tmp/ISIS.md",
+    "tmp/路由策略.md",
+    "tmp/RIP配置.md",
     "tmp/OSPF.md",
     "tmp/DAY9.md",
     "Excalidraw/``.md",

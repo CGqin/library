@@ -230,6 +230,14 @@
           "lastUpdated": 1669441645163
         }
       }
+    },
+    "ip-prefix": {
+      "ip-prefix": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1669468038455
+        }
+      }
     }
   }
 }

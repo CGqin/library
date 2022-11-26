@@ -11,9 +11,11 @@
             "id": "1cbb0f63900e65cc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachment/Pasted image 20221126162009.png"
+                "file": "tmp/路由策略.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -69,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachment/Pasted image 20221126162009.png"
+                "file": "tmp/路由策略.md"
               }
             }
           }
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachment/Pasted image 20221126162009.png",
+                "file": "tmp/路由策略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachment/Pasted image 20221126162009.png",
+                "file": "tmp/路由策略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8810c2df1e7775f9",
+  "active": "1cbb0f63900e65cc",
   "lastOpenFiles": [
-    "Attachment/Pasted image 20221126162016.png",
-    "Attachment/Pasted image 20221126162051.png",
-    "Attachment/Pasted image 20221126162129.png",
-    "Attachment/Pasted image 20221126162221.png",
-    "Attachment/Pasted image 20221126162231.png",
-    "Attachment/Pasted image 20221126162247.png",
-    "Attachment/Pasted image 20221126162300.png",
-    "Attachment/Pasted image 20221126162409.png",
-    "Attachment/Pasted image 20221126162427.png",
-    "tmp/路由策略.md"
+    "Attachment/Pasted image 20221112214604.png",
+    "Attachment/Pasted image 20221119224552.png",
+    "Attachment/Pasted image 20221119224520.png",
+    "Attachment/Pasted image 20221119151346.png",
+    "Attachment/Pasted Image 20221112222458_589.png",
+    "Attachment/Pasted image 20221117190418.png",
+    "Attachment/Pasted image 20221117190421.png",
+    "Attachment/Pasted Image 20221112222236_497.png",
+    "Attachment/Pasted image 20221112224236.png",
+    "Attachment/Pasted image 20221112224244.png"
   ]
 }

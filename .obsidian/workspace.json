@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp/DHCP.md",
+                "file": "tmp/路由策略.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/DHCP.md"
+                "file": "tmp/路由策略.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/DHCP.md",
+                "file": "tmp/路由策略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/DHCP.md",
+                "file": "tmp/路由策略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +139,9 @@
   },
   "active": "e7b4356c2d6bfa36",
   "lastOpenFiles": [
+    "tmp/DHCP.md",
     "tmp/路由策略.md",
     "网络/OSPF.md",
-    "tmp/DHCP.md",
     "tmp/tmp.md",
     "tmp/RIP配置.md",
     "tmp/ISIS.md",

@@ -1,5 +1,10 @@
 # DHCP报文类型
-
+1. DHCP Discover
+2. DHCP Offer
+3. DHCP Request
+4. DHCP Ack
+5. DHCP Nak
+6. DHCP re
 
 # DHCP基本工作过程
 

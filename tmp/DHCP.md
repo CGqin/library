@@ -4,7 +4,7 @@
 3. DHCP Request
 4. DHCP Ack
 5. DHCP Nak
-6. DHCP re
+6. DHCP Release
 
 # DHCP基本工作过程
 

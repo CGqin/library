@@ -34,5 +34,7 @@ ip pool poll1       //创建一个地址池
 	lease day 30
 #中继
 dhcp enable 
-
+interface g0/0/0
+	dhcp select relay
+	dhcp relay 
 ```

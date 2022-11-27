@@ -3,7 +3,8 @@
 
 # DHCP基本工作过程
 
-
+![](https://cgqin.github.io/images//202211272244787.png)
+![](https://cgqin.github.io/images//202211272245674.png)
 
 # 基于接口地址池配置
 

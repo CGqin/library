@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp/DHCP.md",
+                "file": "网络/OSPF.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/DHCP.md"
+                "file": "网络/OSPF.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/DHCP.md",
+                "file": "网络/OSPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/DHCP.md",
+                "file": "网络/OSPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,16 +137,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "29ed155b27bcef0d",
+  "active": "8810c2df1e7775f9",
   "lastOpenFiles": [
+    "tmp/DHCP.md",
     "tmp/tmp.md",
     "tmp/RIP配置.md",
     "tmp/ISIS.md",
     "tmp/网络类型.md",
     "tmp/路由基础.md",
     "tmp/路由策略.md",
-    "tmp/OSPF.md",
-    "tmp/DHCP.md",
+    "网络/OSPF.md",
     "Attachment/Pasted image 20221112214604.png",
     "Attachment/Pasted image 20221119224552.png"
   ]

@@ -25,5 +25,11 @@ interface g0/0/0
 # DHCP中继
 
 ```
+#dhcp服务器
+dhcp enable 
+ip pool poll1       //创建一个地址池
+	network 10.1.1.0 mask 255.255.255.0
+	dns-list 10.1.1.254
+	gateway-list 
 
 ```

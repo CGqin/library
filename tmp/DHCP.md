@@ -16,4 +16,6 @@ ip pool pool1      //创建一个地址池
 	dns-list 10.1.2.3
 	gateway-list 10.1.1.1
 	lease day 10
+interface g0/0/0
+    dhcp select global
 ```

@@ -1,3 +1,6 @@
+# 报文交互
+
+
 # 基于接口地址池配置
 
 ``` 
@@ -43,3 +46,5 @@ interface g0/0/0                        //dhcp流量进接口处配置
 	dhcp select relay 
 	dhcp relay server-ip 12.1.1.1       //指向下一个中继
 ```
+
+

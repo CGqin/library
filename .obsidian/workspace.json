@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a67552a1deab86a3",
+        "id": "991dc5e36971fd4e",
         "type": "tabs",
         "children": [
           {
-            "id": "1cbb0f63900e65cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tmp/路由策略.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d51b339feaf2dae",
+            "id": "29ed155b27bcef0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0d51b339feaf2dae",
+  "active": "29ed155b27bcef0d",
   "lastOpenFiles": [
+    "tmp/tmp.md",
+    "tmp/RIP配置.md",
+    "tmp/ISIS.md",
+    "tmp/网络类型.md",
+    "tmp/路由基础.md",
     "tmp/路由策略.md",
+    "tmp/OSPF.md",
+    "tmp/DHCP.md",
     "Attachment/Pasted image 20221112214604.png",
-    "Attachment/Pasted image 20221119224552.png",
-    "Attachment/Pasted image 20221119224520.png",
-    "Attachment/Pasted image 20221119151346.png",
-    "Attachment/Pasted Image 20221112222458_589.png",
-    "Attachment/Pasted image 20221117190418.png",
-    "Attachment/Pasted image 20221117190421.png",
-    "Attachment/Pasted Image 20221112222236_497.png",
-    "Attachment/Pasted image 20221112224236.png"
+    "Attachment/Pasted image 20221119224552.png"
   ]
 }

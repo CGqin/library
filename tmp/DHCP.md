@@ -30,6 +30,9 @@ dhcp enable
 ip pool poll1       //创建一个地址池
 	network 10.1.1.0 mask 255.255.255.0
 	dns-list 10.1.1.254
-	gateway-list 
+	gateway-list 10.1.1.254
+	lease day 30
+#中继
+dhcp enable 
 
 ```

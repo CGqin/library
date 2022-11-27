@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0d51b339feaf2dae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tmp/DHCP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,12 +84,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/路由策略.md"
+                "file": "tmp/DHCP.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/路由策略.md",
+                "file": "tmp/DHCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/路由策略.md",
+                "file": "tmp/DHCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,8 +150,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9caccb93003982f6",
+  "active": "0d51b339feaf2dae",
   "lastOpenFiles": [
+    "tmp/路由策略.md",
     "Attachment/Pasted image 20221112214604.png",
     "Attachment/Pasted image 20221119224552.png",
     "Attachment/Pasted image 20221119224520.png",
@@ -148,7 +161,6 @@
     "Attachment/Pasted image 20221117190418.png",
     "Attachment/Pasted image 20221117190421.png",
     "Attachment/Pasted Image 20221112222236_497.png",
-    "Attachment/Pasted image 20221112224236.png",
-    "Attachment/Pasted image 20221112224244.png"
+    "Attachment/Pasted image 20221112224236.png"
   ]
 }

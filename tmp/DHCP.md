@@ -36,5 +36,10 @@ ip pool poll1       //创建一个地址池
 dhcp enable 
 interface g0/0/0
 	dhcp select relay           //开启中继功能
-	dhcp relay server-ip        //
+	dhcp relay server-ip 23.1.1.1       //配置DHCP中继代理的DHCP服务器的IP地址
+#多中继
+dhcp enable 
+interface g0/0/0                        //dhcp流量进接口处配置
+	dhcp select relay 
+	dhcp relay server-ip 12.1.1.1       //指向下一个中继
 ```

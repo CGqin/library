@@ -35,6 +35,6 @@ ip pool poll1       //创建一个地址池
 #中继
 dhcp enable 
 interface g0/0/0
-	dhcp select relay
-	dhcp relay 
+	dhcp select relay           //开启中继功能
+	dhcp relay server-ip        //
 ```

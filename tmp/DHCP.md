@@ -11,5 +11,9 @@ dhcp server database       //开启dhcp数据保存功能
 # 基于全局地址池
 
 ```
-
+ip pool pool1
+	network 10.1.1.0 mask 255.255.255.128
+	dns-list 10.1.2.3
+	gateway-list 10.1.1.1
+	lease day 10
 ```

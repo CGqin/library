@@ -21,3 +21,9 @@ ip pool pool1      //创建一个地址池
 interface g0/0/0
     dhcp select global
 ```
+
+# DHCP中继
+
+```
+
+```

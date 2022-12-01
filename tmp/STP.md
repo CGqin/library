@@ -43,5 +43,5 @@
 1. root id                     根桥的桥ID 
 2. rpc                          自己到达根桥的RPC
 3. sender BID              自己的桥ID
-4. sender PID              自己认为是DP接口的PID
-
+4. sender PID              自己认为是DP接口的PID 
+参数准备完毕后, 这个链路上的两个接口都会发出认为自己的DP接口的BPDU, 就要进行

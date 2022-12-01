@@ -42,4 +42,6 @@
 在交换机选取出根端口以后, 将会自己为所有DP接口计算出一个未来需要发送的BPDU参数,
 1. root id                     根桥的桥ID 
 2. rpc                          自己到达根桥的RPC
-3. 
+3. sender BID              自己的桥ID
+4. sender PID              自己认为是DP接口的PID
+

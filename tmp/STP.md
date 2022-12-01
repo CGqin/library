@@ -33,4 +33,10 @@
 什么叫做好的BPDU? 标准是:
 1. root id                    根桥的桥ID
 2. RPC                        从接口收到的BPDU中携带的RPC数值越小越优
-3. 
+3. sender BID
+4. sender PID
+5. local PID
+
+## 3.选取指定端口
+
+在交换机选取出根端口以后, 将会自己为所有接口

@@ -17,8 +17,16 @@
 
 ## 端口状态
 
+1. disable: 没有开启STP的端口, 或者关闭接口处于disable状态,该状态下不处理BPDU
+2. listening: 接受BPDU报文,发送BPDU报文,不学习MAC地址,不转发数据
+3. learning: 接受BPDU报文,发送BPDU报文,学习MAC地址,不转发数据 
+4. forwarding: 接受BPDU报文,发送BPDU报文,学习MAC地址,转发数据
+5. blocking: 接受BPDU报文,不发送BPDU报文,不学习MAC地址,不转发数据 
 
+listening ----->learning  需要一个转发时延,15s
+learning------>forwarding 需要一个转发时延,15s
 
+所有交换机初始状态下, 所有接口都会进入listening状态,开始收敛
 
 # STP的工作流程
 

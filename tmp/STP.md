@@ -28,6 +28,14 @@ learning------>forwarding 需要一个转发时延,15s
 
 所有交换机初始状态下, 所有接口都会进入listening状态,开始收敛
 
+## STP的几个计时器
+
+1. hello time: 2s一次
+2. max age: 20s 老化时间(20s没有收到上游发来的BPDU,就会造反)
+3. forwarding delay: 转发时延  15s
+4. message age: 每转发一次+1 默认最大不超过20跳
+
+
 # STP的工作流程
 
 ## 1.选举根桥

@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp/路由策略.md",
+                "file": "tmp/网络类型.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09aae535ac228327",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tmp/STP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/路由策略.md"
+                "file": "tmp/STP.md"
               }
             }
           }
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/路由策略.md",
+                "file": "tmp/STP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/路由策略.md",
+                "file": "tmp/STP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,17 +150,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e7b4356c2d6bfa36",
+  "active": "09aae535ac228327",
   "lastOpenFiles": [
-    "tmp/路由基础.md",
     "tmp/网络类型.md",
-    "tmp/DHCP.md",
+    "tmp/路由基础.md",
+    "tmp/shell变量.md",
+    "tmp/RIP配置.md",
     "tmp/路由策略.md",
+    "tmp/DHCP.md",
     "网络/OSPF.md",
     "tmp/tmp.md",
-    "tmp/RIP配置.md",
     "tmp/ISIS.md",
-    "Attachment/Pasted image 20221112214604.png",
-    "Attachment/Pasted image 20221119224552.png"
+    "Attachment/Pasted image 20221112214604.png"
   ]
 }

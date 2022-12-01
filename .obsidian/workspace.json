@@ -153,14 +153,14 @@
   "active": "09aae535ac228327",
   "lastOpenFiles": [
     "tmp/网络类型.md",
+    "tmp/DAY5.md",
     "tmp/路由基础.md",
-    "tmp/shell变量.md",
     "tmp/RIP配置.md",
-    "tmp/路由策略.md",
-    "tmp/DHCP.md",
-    "网络/OSPF.md",
-    "tmp/tmp.md",
     "tmp/ISIS.md",
-    "Attachment/Pasted image 20221112214604.png"
+    "tmp/shell变量.md",
+    "tmp/DHCP.md",
+    "tmp/STP.md",
+    "tmp/路由策略.md",
+    "网络/OSPF.md"
   ]
 }

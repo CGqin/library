@@ -128,6 +128,7 @@ withdrwan routes length：如果这个参数不为空，那么下面就会显示
 # BGP邻居状态机
 
 ![](https://cgqin.github.io/images//202212061457029.png)
+
 ## idle
 
 BGP初始状态，一旦配置了BGP的peer以后，或者重置了已存在的peer之后，就会进入这个状态，在这个状态下BGP不会向这个peer发送TCP三次握手，

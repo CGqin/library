@@ -75,4 +75,5 @@ EBGP的as-path属性防环：当BGP设备从EBGP邻居收到路由后，
 4. 手动聚合 aggregate 172.16.0.0 23（detail-suppressed）
      手动聚合后明细路由默认不会被抑制，可以通过命令让其抑制
 
+# BGP报文
 

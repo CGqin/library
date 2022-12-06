@@ -160,3 +160,13 @@ BGP初始状态，一旦配置了BGP的peer以后，或者重置了已存在的p
 2. 如果在多次尝试下，TCP3次握手仍然失败，那么BGP会将该peer停留在active状态。
 3. 如果重传定时器超时（32s），且没有得到该peer的响应，那么会转至connect状态。
 
+## opensent（open报文已发送）
+
+在这个状态下，BGP已经向该peer发送了OPEN报文，在等待对方给我发送OPEN报文。
+1. 如果收到了对方发来的OPEN报文，参数协商成功，则会向该peer发送keepalive报文，然后转到openconfirm状态
+2. 如果收到了对方发来的OPEN报文，参数协商失败，则会发送notification报文，然后转到idle
+
+## openconfirm（open报文已确认）
+
+1. 在这个状态下 BGP等待对方的keepalive报文，如果收到了对方的Keepalive报文则转换为established状态
+2. 在这个状态下 BGP如果收到了notification报文，则转换为idle状

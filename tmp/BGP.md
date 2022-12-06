@@ -115,12 +115,12 @@ optional parameters:BGP协商参数
 
 ### holdtime
 
-1、默认情况下holdtime是keepalive的3倍关系，Keepalive默认60秒。
-2、如果从邻居接收到的holdtime和自己的holdtime相同，则不做改变。
-3、如果从邻居接收到的holdtime大于自己的holdtime，则不做改变。
-4、如果从邻居接收到的holdtime小于自己的holdtime,则协商结果是使用数值小的holdtime执行。
-   4.1 如果自己的keepalive值小于协商后的holdtime值除以3，那么不做改变。
-   4.2 如果自己的keepalive值大于协商后的holdtime值除以3，那么选用数值小的执行
+1. 默认情况下holdtime是keepalive的3倍关系，Keepalive默认60秒。
+2. 如果从邻居接收到的holdtime和自己的holdtime相同，则不做改变。
+3. 如果从邻居接收到的holdtime大于自己的holdtime，则不做改变。
+4. 如果从邻居接收到的holdtime小于自己的holdtime,则协商结果是使用数值小的holdtime执行。
+	1. 如果自己的keepalive值小于协商后的holdtime值除以3，那么不做改变。
+	2. 如果自己的keepalive值大于协商后的holdtime值除以3，那么选用数值小的执行
    
 ## update报文 
 

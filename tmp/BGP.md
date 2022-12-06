@@ -198,19 +198,21 @@ BGP初始状态，一旦配置了BGP的peer以后，或者重置了已存在的p
 3. 可选过渡：BGP设备可以不识别此类属性，如果一个BGP路由器不识别该属性，它仍然可以接收这类属性，并通告给其他邻居
 4. 可选非过渡：BGP设备可以不识别此类属性，如果一个BGP路由器不识别该属性，他会忽略这个属性，也不会通告给其他邻居
 
+## 
+
 # BGP选路原则
 
-1、丢弃下一跳不可达的路由。
-2、优选Preference_Value值最高的路由（私有属性，仅本地有效）。
-3、优选本地优先级（Local_Preference）最高的路由。
-4、优选手动聚合>自动聚合>network>import>从对等体学到的。
-5、优选AS_Path短的路由。
-6、起源类型IGP>EGP>Incomplete。
-7、对于来自同一AS的路由，优选MED值小的。
-8、优选从EBGP学来的路由（EBGP>IBGP）。
-9、优选AS内部IGP的Metric最小的路由。
-10、优选Cluster_List最短的路由。
-11、优选Orginator_ID最小的路由。
-12、优选Router_ID最小的路由器发布的路由。
-13、优选具有较小IP地址的邻居学来的路由。
+1. 丢弃下一跳不可达的路由。
+2. 优选Preference_Value值最高的路由（私有属性，仅本地有效）。
+3. 优选本地优先级（Local_Preference）最高的路由。
+4. 优选手动聚合>自动聚合>network>import>从对等体学到的。
+5. 优选AS_Path短的路由。
+6. 起源类型IGP>EGP>Incomplete。
+7. 对于来自同一AS的路由，优选MED值小的。
+8. 优选从EBGP学来的路由（EBGP>IBGP）。
+9. 优选AS内部IGP的Metric最小的路由。
+10. 优选Cluster_List最短的路由。
+11. 优选Orginator_ID最小的路由。
+12. 优选Router_ID最小的路由器发布的路由。
+13. 优选具有较小IP地址的邻居学来的路由。
 注释：自上而下序号从小到大依次匹配，且唯一匹配

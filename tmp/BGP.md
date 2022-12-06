@@ -23,3 +23,18 @@
 **EBGP邻居建立时通常使用直连接口作为收发报文接口**
 IBGP建立邻居时报文中TTL默认为255, 所以可以跨越多条建立邻居
 EBGP建立邻居时报文中TTL默认为1, 所以建议使用直联接口
+(但是这个TTL可以手动更改：[AR4-bgp]peer 34.1.1.3 ebgp-max-hop)
+
+# BGP的router-id
+
+1. 人为手动指定
+2. 自动选举(如果没有人为手动指定,那么将会选择路由器的全局router id)
+BGP的router-id和OSPF一样,代表唯一一台BGP路由器
+
+# BGP的更新方式
+
+1. 触发更新
+2. 管理手动更新
+	<AR4>refresh bgp all import //从所有邻居更新一份最新的路由给我
+    <AR4>refresh bgp all export //我给所有邻居更新一份我最新的路由
+

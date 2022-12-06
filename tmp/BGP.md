@@ -121,3 +121,8 @@ total path attribute length:用来描述携带的属性长度
 path attributes:携带的属性
 NLRI:网络层可达信息，用来描述所携带的路由的网络号和掩码长度
 ```
+**针对属性不同的路由条目，需要分开Update报文发送**
+**具有相同属性的路由条目，可以在一条update报文发送**
+withdrwan routes length：如果这个参数不为空，那么下面就会显示携带的需要删除的路由信息
+
+## 

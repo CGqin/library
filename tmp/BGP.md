@@ -169,7 +169,7 @@ BGP初始状态，一旦配置了BGP的peer以后，或者重置了已存在的p
 ## openconfirm（open报文已确认）
 
 1. 在这个状态下 BGP等待对方的keepalive报文，如果收到了对方的Keepalive报文则转换为established状态
-2. 在这个状态下 BGP如果收到了notification报文，则转换为idle
+2. 在这个状态下 BGP如果收到了notification报文，则转换为idle状态
 
 ## established（连接已建立）
 

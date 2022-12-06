@@ -94,9 +94,22 @@ EBGP的as-path属性防环：当BGP设备从EBGP邻居收到路由后，
 
 ## BGP报文头
 
+```
 Marker:占用16字节，默认全F，用于检查BGP邻居头部的消息是否完整
 Length:占用2字节，用于描述BGP报文的总长度，包括了头部和具体部分
 Type  :类型，用于描述当前BGP报文类型，分为 1 2 3 4 5
+```
 
 ## Open报文 
+
+```
+version  ：BGP版本，默认都是版本4
+my as    : 描述发送次报文的BGP路由器所处的AS号，如果对端的AS号和本地配置不一致，
+           则协商失败，发送notification报文
+hold time: 描述路由器邻居失效时间，默认情况是keepalive的3倍，当两端holdtime不一致时，
+           需要协商为数值低的使用
+bgp id   : 用来描述发出该报文的路由器BGP router-id
+optional parameters length:BGP协商参数字段长度
+optional parameters:BGP协商参数
+```
 

@@ -334,6 +334,14 @@
           "lastUpdated": 1670298611878
         }
       }
+    },
+    "BGP报文类型": {
+      "BGP报文类型": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1670304953978
+        }
+      }
     }
   }
 }

@@ -137,3 +137,6 @@ BGP初始状态，一旦配置了BGP的peer以后，或者重置了已存在的p
 1.  如果没有去往peer的路由，那么就无法发送SYN，此时该peer会一直卡在idle状态。
 2.  收到了错误信息之后回退到idle
 3.  手动挂起邻居  peer 12.1.1.2 ignore  Idle(Admin)
+
+## connect(连接状态)
+

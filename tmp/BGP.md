@@ -174,6 +174,6 @@ BGP初始状态，一旦配置了BGP的peer以后，或者重置了已存在的p
 ## established（连接已建立）
 
 在这个状态下说明邻居建立完毕。在这个状态可以交互的报文有：update，notification，Keepalive，route-refresh
-   6.1 如果在这个状态下，收到正确的update和keepalive报文，那么BGP会认为邻居处于正常运行状态，继续保持。
-   6.2 如果在这个状态下，收到错误的update和Keepalive报文，那么BGP会认为邻居处于异常状态，会发送notification报文，并转到idle状态
+1. 如果在这个状态下，收到正确的update和keepalive报文，那么BGP会认为邻居处于正常运行状态，继续保持。
+2. 如果在这个状态下，收到错误的update和Keepalive报文，那么BGP会认为邻居处于异常状态，会发送notification报文，并转到idle状态
    route-refresh报文的发送是不会影响邻居关系

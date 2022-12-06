@@ -31,12 +31,16 @@ EBGP建立邻居时报文中TTL默认为1, 所以建议使用直联接口
 2. 自动选举(如果没有人为手动指定,那么将会选择路由器的全局router id)
 BGP的router-id和OSPF一样,代表唯一一台BGP路由器
 
+
 # BGP的更新方式
 
 1. 触发更新
 2. 管理手动更新
-	<AR4>refresh bgp all import //从所有邻居更新一份最新的路由给我
-    <AR4>refresh bgp all export //我给所有邻居更新一份我最新的路由
+		refresh bgp all import //从所有邻居更新一份最新的路由给我
+		refresh bgp all export //我给所有邻居更新一份我最新的路由
 
 # BGP的防环机制
 
+IBGP邻居水平分割：从IBGP邻居接收到的路由不会传递给另外一个IBGP邻居
+EBGP的as-path属性防环：当BGP设备从EBGP邻居收到路由后，
+如果这条路由的AS-PATH列表中有我本地的AS号，此时将不接收这条路由

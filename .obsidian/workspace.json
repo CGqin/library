@@ -100,7 +100,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -162,7 +163,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4616a1034ce06cd7",
+  "active": "9caccb93003982f6",
   "lastOpenFiles": [
     "tmp/STP.md",
     "tmp/网络类型.md",

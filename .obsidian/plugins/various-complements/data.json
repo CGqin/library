@@ -47,14 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "git": {
-      "git": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667303759349
-        }
-      }
-    },
     "route-static": {
       "route-static": {
         "currentFile": {
@@ -332,6 +324,14 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1669905445238
+        }
+      }
+    },
+    "如果邻居和自己的AS号一致": {
+      "如果邻居和自己的AS号一致": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670298611878
         }
       }
     }

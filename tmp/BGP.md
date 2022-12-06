@@ -38,3 +38,5 @@ BGP的router-id和OSPF一样,代表唯一一台BGP路由器
 	<AR4>refresh bgp all import //从所有邻居更新一份最新的路由给我
     <AR4>refresh bgp all export //我给所有邻居更新一份我最新的路由
 
+# BGP的防环机制
+

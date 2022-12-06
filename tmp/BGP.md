@@ -113,3 +113,11 @@ optional parameters length:BGP协商参数字段长度
 optional parameters:BGP协商参数
 ```
 
+## update报文 
+
+```
+withdrwan routes length:用来描述失效的路由长度
+total path attribute length:用来描述携带的属性长度
+path attributes:携带的属性
+NLRI:网络层可达信息，用来描述所携带的路由的网络号和掩码长度
+```

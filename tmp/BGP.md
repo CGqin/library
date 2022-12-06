@@ -133,3 +133,7 @@ BGP初始状态，一旦配置了BGP的peer以后，或者重置了已存在的p
 同时也会拒绝这个peer发来的TCP3次握手。
 在进入这个状态时有一个start事件，这个事件会维持32秒，在这个之后开始建立该peer的TCP3次握手，开始建立TCP连接，发送SYN以后，
 进入到connect状态
+**常见的几种idle状态原因：**
+1.  如果没有去往peer的路由，那么就无法发送SYN，此时该peer会一直卡在idle状态。
+2.  收到了错误信息之后回退到idle
+3.  手动挂起邻居  peer 12.1.1.2 ignore  Idle(Admin)

@@ -127,3 +127,5 @@ withdrwan routes length：如果这个参数不为空，那么下面就会显示
 
 # BGP邻居状态机
 
+## idle
+

@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/BGP.md"
+                "file": "tmp/网络类型.md"
               }
             }
           }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/BGP.md",
+                "file": "tmp/网络类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/BGP.md",
+                "file": "tmp/网络类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

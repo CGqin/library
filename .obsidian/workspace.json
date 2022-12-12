@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp/网络类型.md",
+                "file": "tmp/ISIS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f67d82948364a4a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tmp/路由策略.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/网络类型.md"
+                "file": "tmp/路由策略.md"
               }
             }
           }
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/网络类型.md",
+                "file": "tmp/路由策略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/网络类型.md",
+                "file": "tmp/路由策略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,17 +150,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e7b4356c2d6bfa36",
+  "active": "f67d82948364a4a3",
   "lastOpenFiles": [
-    "tmp/STP.md",
-    "tmp/BGP.md",
-    "tmp/ipv6.md",
-    "tmp/网络类型.md",
-    "tmp/DAY5.md",
-    "tmp/路由基础.md",
-    "tmp/RIP配置.md",
     "tmp/ISIS.md",
+    "tmp/PPP PPPoE.md",
+    "tmp/RIP配置.md",
+    "tmp/ipv6.md",
+    "tmp/DHCP.md",
+    "tmp/BGP.md",
+    "tmp/tmp.md",
+    "tmp/STP.md",
     "tmp/shell变量.md",
-    "tmp/DHCP.md"
+    "tmp/DAY9.md"
   ]
 }

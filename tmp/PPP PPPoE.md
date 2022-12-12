@@ -19,7 +19,4 @@
 # PPP报文
 
 ## 结构
-
-![](https://cgqin.github.io/images//202212122356718.png)
-
-##  
+<img src="https://cgqin.github.io/images//202212122356718.png" style="zoom:230%;" />

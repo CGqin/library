@@ -16,8 +16,7 @@
 |NCP(Network Control Protocal)|网络层控制协议<br/>对不同的网路层协议进行连接建立和参数协商|
 |CHAP、PAP|扩展协议, 用于认证|
 
+# PPP报文
 
-
-
-
+## 结构
 

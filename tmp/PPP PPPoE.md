@@ -12,8 +12,8 @@
 
 |协议|备注|
 |:----:|:-----:|
-|LCP(Link Control Protocal)|链路控制协议 建立、拆除和监控PPP数据链路|
-|NCP(Network Control Protocal)|网络层控制协议 对不同的网路层协议进行连接建立和参数协商|
+|LCP(Link Control Protocal)|链路控制协议<br/>建立、拆除和监控PPP数据链路|
+|NCP(Network Control Protocal)|网络层控制协议<br/>对不同的网路层协议进行连接建立和参数协商|
 |CHAP、PAP|扩展协议, 用于认证|
 
 

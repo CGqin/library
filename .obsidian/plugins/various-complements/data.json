@@ -47,46 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "route-static": {
-      "route-static": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1668087137745
-        }
-      }
-    },
-    "浮动路由关联bfd": {
-      "浮动路由关联bfd": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1668159198417
-        }
-      }
-    },
-    "动态路由dong": {
-      "动态路由dong": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1668159933256
-        }
-      }
-    },
-    "如果路由器没有环回接口，那么会使用物理接口IP地址最大的作为router-id": {
-      "如果路由器没有环回接口，那么会使用物理接口IP地址最大的作为router-id": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1668168629014
-        }
-      }
-    },
-    "OSPF邻居建立过程": {
-      "OSPF邻居建立过程": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1668264293682
-        }
-      }
-    },
     "neighbor": {
       "neighbor": {
         "currentFile": {
@@ -372,6 +332,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1670336232580
+        }
+      }
+    },
+    "PPP三大协议组件": {
+      "PPP三大协议组件": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670859584526
+        }
+      }
+    },
+    "Protocal": {
+      "Protocal": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670859710162
         }
       }
     }

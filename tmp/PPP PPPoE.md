@@ -82,10 +82,12 @@
 
 >以明文发送密码, 二次握手机制,发起方为被认证方,可以无限次的尝试(暴力破解), 只在链路建立的阶段进行认证,一旦链路建立成功将不在认证 
 
-**报文类型:**
-Authenticate-Request:  被认证方发送用户名和密码
-Authenticate-Ack: 认证方发送验证成功信息
-Authenticate-Nak: 认证方发送验证失败信息
+|报文类型|备注|
+|:-------:|----|
+|Authenticate-Request|被认证方发送用户名和密码|
+|Authenticate-Ack|认证方发送验证成功信息|
+|Authenticate-Nak|认证方发送验证失败信息|
 ![](https://cgqin.github.io/images//202212131514695.png)
+
 ## CHAP: Challenge Handshake Authentication Protocal , 挑战/质询握手认证协议
 

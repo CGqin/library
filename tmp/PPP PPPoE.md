@@ -77,3 +77,7 @@
 ![](https://cgqin.github.io/images//202212131448606.png)
 
 ## PPP认证协议
+
+## PAP: Password Authentication Protocol, 密码认证协议
+
+以明文发送密码, 二次握手机制,发起方为被认证方,可以无限次的尝试(暴力破解), 只在链路建立的阶段进行认证,一旦链路建立成功将不在认证

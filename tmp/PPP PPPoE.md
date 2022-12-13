@@ -73,3 +73,4 @@
 ![](https://cgqin.github.io/images//202212131400457.png)
 ## 链路检测(默认周期为10s)
 ![](https://cgqin.github.io/images//202212131438489.png)
+## 连接关闭

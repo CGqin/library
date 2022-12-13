@@ -121,3 +121,5 @@ ppp chap passwd cipher huawei
 
 # NCP协议协商
 
+## IPCP: 用于协商控制IP参数, 使PPP可用于传输IP数据包
+

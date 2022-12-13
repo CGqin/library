@@ -130,3 +130,5 @@ ppp chap passwd cipher huawei
 
 ## IPCP动态协商IP地址
 ![](https://cgqin.github.io/images//202212131954966.png)
+
+## 配置

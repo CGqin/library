@@ -132,6 +132,27 @@ ppp chap passwd cipher huawei
 ![](https://cgqin.github.io/images//202212131954966.png)
 
 ## 配置
+
+`ip address ppp-negotiate` : 配置接口的IP地址可协商属性
+`remote address ip-address/pool name` : 配置为客户端分配的IP地址
+
+**认证方**
 ```
-ip address ppp-negotiate                  // 
+aaa
+	local-user huawei password cipher hello
+	local-user huawei service-type ppp
+int s1/0/0
+	link-protocal ppp
+	ip address 12.1.1.1 255.255.255.0
+	remote address 12.1.1.2
+	ppp authentication-mode chap
+	ppp chap user huawei
+```
+**被认证方**
+```
+int s1/0/0
+	link-protocal ppp
+	ip address ppp-negotiate
+	ppp chap user huawei 
+	ppp chap passwd cipher hello
 ```

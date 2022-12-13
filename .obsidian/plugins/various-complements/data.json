@@ -322,8 +322,8 @@
     "PPP三大协议组件": {
       "PPP三大协议组件": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1670917130643
+          "count": 5,
+          "lastUpdated": 1670932965393
         }
       }
     },
@@ -394,8 +394,8 @@
     "huawei": {
       "huawei": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670917326216
+          "count": 2,
+          "lastUpdated": 1670933022278
         }
       }
     },
@@ -404,6 +404,30 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1670917542465
+        }
+      }
+    },
+    "link-protocal": {
+      "link-protocal": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1670932962752
+        }
+      }
+    },
+    "CHAP、PAP": {
+      "CHAP、PAP": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1670932880057
+        }
+      }
+    },
+    "ppp-negotiate": {
+      "ppp-negotiate": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670933080711
         }
       }
     }

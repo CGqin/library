@@ -76,4 +76,4 @@
 ## 连接关闭
 ![](https://cgqin.github.io/images//202212131448606.png)
 
-## PPP
+## PPP认证协议

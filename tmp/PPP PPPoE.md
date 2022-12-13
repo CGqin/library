@@ -86,5 +86,6 @@
 Authenticate-Request:  被认证方发送用户名和密码
 Authenticate-Ack: 认证方发送验证成功信息
 Authenticate-Nak: 认证方发送验证失败信息
+![](https://cgqin.github.io/images//202212131514695.png)
+## CHAP: Challenge Handshake Authentication Protocal , 挑战/质询握手认证协议
 
-## CHAP:

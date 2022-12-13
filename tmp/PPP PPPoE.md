@@ -118,3 +118,6 @@ ppp pap local-user wakin password cipher huawei               // 配置PAP凭证
 ppp chap user wakin                                           // 配置CHAP凭证
 ppp chap passwd cipher huawei           
 ```
+
+# NCP协议协商
+

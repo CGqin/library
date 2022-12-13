@@ -68,4 +68,6 @@
 ## 协商成功
 ![](https://cgqin.github.io/images//202212131352139.png)
 ## 协商失败(不接受)
-
+![](https://cgqin.github.io/images//202212131356400.png)
+## 协商失败(无法识别)
+![]()

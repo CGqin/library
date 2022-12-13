@@ -100,3 +100,6 @@
 |Success|认证方发送认证成功信息|
 |Failure|认真放发送认证失败信息|
 ![](https://cgqin.github.io/images//202212131531750.png)
+
+# PPP认证配置
+

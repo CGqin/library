@@ -132,3 +132,6 @@ ppp chap passwd cipher huawei
 ![](https://cgqin.github.io/images//202212131954966.png)
 
 ## 配置
+```
+ip address ppp-negotiate                  // 
+```

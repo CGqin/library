@@ -32,20 +32,20 @@
 |Code|标识LCP数据报文的类型|
 
 ## 类型
-<u>|Code值|报文类型|备注|</u>
-<u>|:---:|:-------:|:----:|</u>
-<u>|0x01|Configure-Request|匹配请求|</u>
-<u>|0x02|Configure-Ack|匹配确认|</u>
-<u>|0x03|Configure-Nak|匹配否认-不接受|</u>
-<u>|0x04|Config-Reject|匹配拒接-不识别|</u>
-<u>|0x05|Terminate-Request|终止请求|</u>
-<u>|0x06|Terminate-Ack|终止确认|</u>
-<u>|0x07|Code-Reject|代码拒接|</u>
-<u>|0x08|Protocal-Reject|协议拒接|</u>
-<u>|0x09|Echo-Request|回拨请求|</u>
-<u>|0x0A|Echo-Reply|回拨确认|</u>
-<u>|0x0B|Discard-Request|抛弃请求|</u>
-<u>|0x0C|Reserved|保留|</u>
+|Code值|报文类型|备注|
+|:---:|:-------:|:----:|
+|0x01|Configure-Request|匹配请求|
+|0x02|Configure-Ack|匹配确认|
+|0x03|Configure-Nak|匹配否认-不接受|
+|0x04|Config-Reject|匹配拒接-不识别|
+|0x05|Terminate-Request|终止请求|
+|0x06|Terminate-Ack|终止确认|
+|0x07|Code-Reject|代码拒接|
+|0x08|Protocal-Reject|协议拒接|
+|0x09|Echo-Request|回拨请求|
+|0x0A|Echo-Reply|回拨确认|
+|0x0B|Discard-Request|抛弃请求|
+|0x0C|Reserved|保留|
 
 # PPP链路建立过程
 

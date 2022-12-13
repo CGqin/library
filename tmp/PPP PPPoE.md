@@ -91,3 +91,11 @@
 
 ## CHAP: Challenge Handshake Authentication Protocal , 挑战/质询握手认证协议
 
+>以==MD5==隐藏密码, ==三次握手==机制, ==发起方为认证方==, 有效避免暴力破解, 在链路建立成功后具有==再次认证==检测机制,推荐使用
+
+|报文类型|备注|
+|:-------:|----|
+|Challenge|认证方发送Challenge, 发起认证过程|
+|Response|被认证方返回用户信息|
+|Success|认证方发送认证成功信息|
+|Failure|认真放发送认证失败信息|

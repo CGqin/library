@@ -144,7 +144,7 @@ aaa
 int s1/0/0
 	link-protocal ppp
 	ip address 12.1.1.1 255.255.255.0
-	remote address 12.1.1.2
+	remote address 12.1.1.2            // 为客户端分配地址
 	ppp authentication-mode chap
 	ppp chap user huawei
 ```
@@ -152,7 +152,7 @@ int s1/0/0
 ```
 int s1/0/0
 	link-protocal ppp
-	ip address ppp-negotiate
+	ip address ppp-negotiate           // 协商地址
 	ppp chap user huawei 
 	ppp chap passwd cipher hello
 ```

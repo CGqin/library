@@ -174,4 +174,5 @@ int s1/0/0
 ==PS: 配置完成后,重启所有成员接口==
 `display ppp mp` : 验证
 `display int mp-group` : 验证
+![](https://cgqin.github.io/images//202212132034786.png)
 

@@ -156,3 +156,5 @@ int s1/0/0
 	ppp chap user huawei 
 	ppp chap passwd cipher hello
 ```
+
+# MP: MultiLink PPP, 将多个PPP链路捆绑使用

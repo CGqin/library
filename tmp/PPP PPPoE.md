@@ -30,5 +30,19 @@
 |Information|填充域的内容, 最大长度称为最大接收单元MRU, 默认为1500字节.|
 |FCS|对PPP数据帧传输的正确性进行校验.|
 |Code|标识LCP数据报文的类型|
-## 
 
+## 类型
+|Code值|报文类型|备注|
+|:---:|:-------:|:----:|
+|0x01|Configure-Request|匹配请求|
+|0x02|Configure-Ack|匹配确认|
+|0x03|Configure-Nak|匹配否认-不接受|
+|0x04|Config-Reject|匹配拒接-不识别|
+|0x05|Terminate-Request|终止请求|
+|0x06|Terminate-Ack|终止确认|
+|0x07|Code-Reject|代码拒接|
+|0x08|Protocal-Reject|协议拒接|
+|0x09|Echo-Request|回拨请求|
+|0x0A|Echo-Reply|回拨确认|
+|0x0B|Discard-Request|抛弃请求|
+|0x0C|Reserved|保留|

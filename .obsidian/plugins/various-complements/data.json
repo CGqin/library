@@ -47,22 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "neighbor": {
-      "neighbor": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1668304712625
-        }
-      }
-    },
-    "此时邻居状态为init": {
-      "此时邻居状态为init": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1668304811187
-        }
-      }
-    },
     "摘要传递完毕，将对方置位loading": {
       "摘要传递完毕，将对方置位loading": {
         "currentFile": {
@@ -346,8 +330,8 @@
     "Protocal": {
       "Protocal": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670859710162
+          "count": 3,
+          "lastUpdated": 1670904362964
         }
       }
     }

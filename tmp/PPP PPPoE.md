@@ -105,5 +105,6 @@
 
 认证方配置
 ```
-
+link-protocal ppp        // ppp链路默认配置
+ppp authentication-mode pap/chap        // 配置PPP认证方式
 ```

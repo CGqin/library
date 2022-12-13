@@ -164,4 +164,4 @@ int s1/0/0
 - ![](https://cgqin.github.io/images//202212132018262.png)
 - **链路协商过程:**
 	- LCP阶段, 需证对端接口是否工作在MP方式下
-	- NCP阶段, 根据
+	- NCP阶段，根据MP-Group接口或指定虚拟接口模板的各项NCP参数（如IP地址等）进行NCP协商。

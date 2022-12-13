@@ -47,4 +47,6 @@
 |0x0B|Discard-Request|抛弃请求|
 |0x0C|Reserved|保留|
 
+# PPP链路建立过程
+
 

@@ -49,4 +49,5 @@
 
 # PPP链路建立过程
 
+![](https://cgqin.github.io/images//202212131234942.png)
 

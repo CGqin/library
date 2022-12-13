@@ -107,4 +107,7 @@
 ```
 link-protocal ppp        // ppp链路默认配置
 ppp authentication-mode pap/chap        // 配置PPP认证方式
+aaa                                     // 创建PPP认证用户
+	local-user wakin password cipher huawei 
+	local-user wakin service-type ppp
 ```

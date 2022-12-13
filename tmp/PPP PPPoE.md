@@ -169,3 +169,9 @@ int s1/0/0
 	- 虚拟接口模块方式
 	- MP-Group方式
 - **相关配置:**
+`int mp-group 0/0/1` : 创建并配置MP-Group
+`ppp mp mp-group 0/0/1` : 将接口加入指定的MP-group
+==PS: 配置完成后,重启所有成员接口==
+`display ppp mp` : 验证
+`display int mp-group` : 验证
+

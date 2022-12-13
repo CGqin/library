@@ -129,4 +129,4 @@ ppp chap passwd cipher huawei
 ![](https://cgqin.github.io/images//202212131951652.png)
 
 ## IPCP动态协商IP地址
-![]()
+![](https://cgqin.github.io/images//202212131954966.png)

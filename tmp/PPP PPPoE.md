@@ -176,3 +176,7 @@ int s1/0/0
 `display int mp-group` : 验证
 ![](https://cgqin.github.io/images//202212132034786.png)
 
+# PPPoE: PPP over Ethernet
+
+
+

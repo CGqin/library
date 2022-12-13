@@ -125,3 +125,5 @@ ppp chap passwd cipher huawei
 
 >使用和LCP相同的协商机制、报文类型, 当IPCP并非调用LCP, 只是工作过程、报文等和LCP相同
 
+## IPCP静态协商地址
+

@@ -123,3 +123,5 @@ ppp chap passwd cipher huawei
 
 ## IPCP: 用于协商控制IP参数, 使PPP可用于传输IP数据包
 
+>使用和LCP相同的协商机制、报文类型, 当IPCP并非调用LCP, 只是工作过程、报文等和LCP相同
+

@@ -228,4 +228,9 @@ int virtual-template 1                     // 创建并配置虚拟接口模板V
 	ppp ipcp dns 114.114.114.114           // 配置为客户端分配DNS地址
 	ip address 192.168.10.1 24             // 配置IP地址
 	ppp authentication-mode                // 配置认证方式
+int G1/0/0
+	pppoe-server bind virtual-template     // 进接口绑定VT
+ip pool pppoe                              // 配置地址池
+	network 192.168.10.0 mask 24
+	gateway-list 192.168.10.1
 ```

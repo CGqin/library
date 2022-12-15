@@ -47,22 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "摘要传递完毕，将对方置位loading": {
-      "摘要传递完毕，将对方置位loading": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1668329254099
-        }
-      }
-    },
-    "P2MP{}": {
-      "P2MP{}": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1668329994361
-        }
-      }
-    },
     "LSACK": {
       "LSACK": {
         "currentFile": {
@@ -386,8 +370,8 @@
     "authentication": {
       "authentication": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670917186722
+          "count": 2,
+          "lastUpdated": 1671090622185
         }
       }
     },
@@ -428,6 +412,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1670933080711
+        }
+      }
+    },
+    "PPPoE": {
+      "PPPoE": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1671090370698
         }
       }
     }

@@ -222,4 +222,10 @@ int s1/0/0
 ## PPPoE配置
 
 **PPPoE Server配置**
-
+```
+int virtual-template 1                     // 创建并配置虚拟接口模板VT
+	remote address pool pppoe              // 配置为客户端分配IP地址
+	ppp ipcp dns 114.114.114.114           // 配置为客户端分配DNS地址
+	ip address 192.168.10.1 24             // 配置IP地址
+	ppp authentication-mode                // 配置认证方式
+```

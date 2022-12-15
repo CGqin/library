@@ -207,12 +207,15 @@ int s1/0/0
 **Session :** 包含两部分: PPP协商阶段和PPP报文传输阶段
 **Terminate :** 会话建立以后的任意时刻, 发送报文结束PPPoE会话
 
+### 完整流程
+
 1. Discovery:
 ![](https://cgqin.github.io/images//202212151531971.png)
 ![](https://cgqin.github.io/images//202212151534808.png)
 ![](https://cgqin.github.io/images//202212151536190.png)
 ![](https://cgqin.github.io/images//202212151538853.png)
-
+ 
 2. Session:
-![]()
+![](https://cgqin.github.io/images//202212151540003.png)
+
 3. Terminate:

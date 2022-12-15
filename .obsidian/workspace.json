@@ -75,7 +75,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -137,7 +138,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8810c2df1e7775f9",
+  "active": "9caccb93003982f6",
   "lastOpenFiles": [
     "tmp/ISIS.md",
     "tmp/BGP.md",

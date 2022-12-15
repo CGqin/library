@@ -184,6 +184,6 @@ int s1/0/0
 - 具有适用范围广、安全性高、计费方便的特点
 - 组网结构采用==Client/Server==模型
 ![](https://cgqin.github.io/images//202212151422488.png)
-- 
+![](https://cgqin.github.io/images//202212151424188.png)
 
 

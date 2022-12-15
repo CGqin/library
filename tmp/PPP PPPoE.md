@@ -233,4 +233,9 @@ int G1/0/0
 ip pool pppoe                              // 配置地址池
 	network 192.168.10.0 mask 24
 	gateway-list 192.168.10.1
+aaa                                        // 配置认证账号
+	local-user wakin password cihper huawei 
+	local-user wakin service-type ppp
+pppoe-server max-session total/local-mac   // 配置会话最大数量
+display pppoe-server session all/packet    // 验证会话
 ```

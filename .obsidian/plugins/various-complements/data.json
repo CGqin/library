@@ -378,8 +378,8 @@
     "huawei": {
       "huawei": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1670933022278
+          "count": 3,
+          "lastUpdated": 1671090910138
         }
       }
     },
@@ -418,8 +418,16 @@
     "PPPoE": {
       "PPPoE": {
         "currentFile": {
+          "count": 2,
+          "lastUpdated": 1671090930691
+        }
+      }
+    },
+    "display": {
+      "display": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1671090370698
+          "lastUpdated": 1671090991417
         }
       }
     }

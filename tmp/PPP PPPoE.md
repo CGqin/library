@@ -254,3 +254,10 @@ int dialer 1
 	nat outbound 3000                      // 配置 NAT 和路由
 display pppoe-client session summary       // 验证会话
 ```
+**PPPoE会话维护**
+```
+reset pppoe-server/pppoe-client            // 服务端/客户端复位PPPoE会话
+display access-user                        // 验证当前接入用户
+aaa                                         
+	cut access-user                        // 服务端强行断开PPPoE
+```

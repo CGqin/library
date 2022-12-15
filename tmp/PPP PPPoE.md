@@ -206,3 +206,9 @@ int s1/0/0
 **Discovery :** 获取对方以太网地址, 已经确认唯一的PPPoE会话
 **Session :** 包含两部分: PPP协商阶段和PPP报文传输阶段
 **Terminate :** 会话建立以后的任意时刻, 发送报文结束PPPoE会话
+
+1. Discovery:
+
+2. Session:
+
+3. Terminate:

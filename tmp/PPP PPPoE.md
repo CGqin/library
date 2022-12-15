@@ -218,3 +218,8 @@ int s1/0/0
 ![](https://cgqin.github.io/images//202212151540003.png)
 3. Terminate:
 ![](https://cgqin.github.io/images//202212151541959.png)
+
+## PPPoE配置
+
+**PPPoE Server配置**
+

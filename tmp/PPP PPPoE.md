@@ -193,4 +193,11 @@ int s1/0/0
 ![](https://cgqin.github.io/images//202212151439679.png)
 ## PPPoE报文结构和类型
 ![](https://cgqin.github.io/images//202212151507133.png)
-|
+|Code|类型|备注|
+|:----:|:---:|----|
+|0x09|PADI|PPPoE发现初始报文|
+|0x07|PADO|PPPoE发现提供报文|
+|0x19|PADR|PPPoE发现请求|
+|0x65|PADS|PPPoE发现会话确认报文|
+|0xa7|PADT|PPPoE发现终止报文|
+|0x00| |会话数据|

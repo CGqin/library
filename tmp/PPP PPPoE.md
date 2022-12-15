@@ -204,3 +204,5 @@ int s1/0/0
 ## PPPoE会话建立过程
 ![](https://cgqin.github.io/images//202212151517703.png)
 
+**Discovery :** 获取对方以太网地址, 已经确认唯一的PPPoE会话
+**Session : ** 

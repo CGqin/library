@@ -242,5 +242,13 @@ display pppoe-server session all/packet    // 验证会话
 **PPPoE Client配置**
 ```
 int dialer 1                               // 创建并配置Dialer接口
-	dialer user wakin                      // 
+	dialer user wakin                      // 开启DCC并指定对端用户名
+	dialer bundle 1                        // 指定bundle
+	ppp chap user wakin                    // 配置认证方式 
+	ppp chap password cipher huawei 
+	ip address ppp-negotiate               // 配置IP地址 
+	ppp ipcp dns request                   // 配置主动请求DNS服务器
+int g0/0/0                                 
+	pppoe-client dial-bundle-number 1      // 在接口上启动PPPoE Client功能
+
 ```

@@ -378,8 +378,8 @@
     "huawei": {
       "huawei": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1671090910138
+          "count": 4,
+          "lastUpdated": 1671091423895
         }
       }
     },
@@ -428,6 +428,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1671090991417
+        }
+      }
+    },
+    "配置认证方式": {
+      "配置认证方式": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1671091399878
+        }
+      }
+    },
+    "配置IP地址": {
+      "配置IP地址": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1671091453133
         }
       }
     }

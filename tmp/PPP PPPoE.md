@@ -188,4 +188,4 @@ int s1/0/0
 
 ## PPPoE应用场景
 
-
+![](https://cgqin.github.io/images//202212151431837.png)

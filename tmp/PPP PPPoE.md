@@ -202,3 +202,5 @@ int s1/0/0
 |0xa7|PADT|PPPoE发现终止报文|
 |0x00| |会话数据|
 ## PPPoE会话建立过程
+![](https://cgqin.github.io/images//202212151517703.png)
+

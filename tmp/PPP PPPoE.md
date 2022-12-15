@@ -201,3 +201,4 @@ int s1/0/0
 |0x65|PADS|PPPoE发现会话确认报文|
 |0xa7|PADT|PPPoE发现终止报文|
 |0x00| |会话数据|
+## PPPoE会话建立过程

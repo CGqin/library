@@ -210,6 +210,7 @@ int s1/0/0
 1. Discovery:
 ![](https://cgqin.github.io/images//202212151531971.png)
 ![](https://cgqin.github.io/images//202212151534808.png)
+![](https://cgqin.github.io/images//202212151536190.png)
 
 2. Session:
 ![]()

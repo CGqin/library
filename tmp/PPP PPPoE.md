@@ -192,4 +192,5 @@ int s1/0/0
 
 ![](https://cgqin.github.io/images//202212151439679.png)
 ## PPPoE报文结构和类型
-
+![](https://cgqin.github.io/images//202212151507133.png)
+|

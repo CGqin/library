@@ -239,4 +239,8 @@ aaa                                        // 配置认证账号
 pppoe-server max-session total/local-mac   // 配置会话最大数量
 display pppoe-server session all/packet    // 验证会话
 ```
-PPPoE C
+**PPPoE Client配置**
+```
+int dialer 1                               // 创建并配置Dialer接口
+	dialer user wakin                      // 
+```

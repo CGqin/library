@@ -250,5 +250,7 @@ int dialer 1                               // 创建并配置Dialer接口
 	ppp ipcp dns request                   // 配置主动请求DNS服务器
 int g0/0/0                                 
 	pppoe-client dial-bundle-number 1      // 在接口上启动PPPoE Client功能
-
+int dialer 1
+	nat outbound 3000                      // 配置 NAT 和路由
+display pppoe-client session summary       // 验证会话
 ```

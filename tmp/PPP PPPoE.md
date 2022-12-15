@@ -214,9 +214,7 @@ int s1/0/0
 ![](https://cgqin.github.io/images//202212151534808.png)
 ![](https://cgqin.github.io/images//202212151536190.png)
 ![](https://cgqin.github.io/images//202212151538853.png)
- 
 2. Session:
 ![](https://cgqin.github.io/images//202212151540003.png)
-
 3. Terminate:
 ![](https://cgqin.github.io/images//202212151541959.png)

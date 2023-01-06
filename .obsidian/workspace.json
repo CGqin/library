@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ansible/未命名.md",
+                "file": "ansible/主机清单.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,14 +35,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ansible/未命名.md",
+                "file": "ansible/主机清单.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "c561d6a67ef4c8a5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ansible/未命名.md"
+                "file": "ansible/主机清单.md"
               }
             }
           }
@@ -118,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ansible/未命名.md",
+                "file": "ansible/主机清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ansible/未命名.md",
+                "file": "ansible/主机清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +182,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "fd0a26f34862c5a0",
+  "active": "c561d6a67ef4c8a5",
   "lastOpenFiles": [
     "tmp/YAML.md",
     "Linux/Linux三剑客.md",

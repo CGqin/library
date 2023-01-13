@@ -62,9 +62,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6837f35a0113e1ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ansible/未命名.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -116,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ansible/文件和目录管理模块.md"
+                "file": "ansible/未命名.md"
               }
             }
           }
@@ -140,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ansible/文件和目录管理模块.md",
+                "file": "ansible/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ansible/文件和目录管理模块.md",
+                "file": "ansible/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,8 +206,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "60aa085a8fd74c15",
+  "active": "6837f35a0113e1ef",
   "lastOpenFiles": [
+    "ansible/文件和目录管理模块.md",
     "tmp/YAML.md",
     "Linux/Linux三剑客.md",
     "网络/PPP PPPoE.md",
@@ -204,7 +217,6 @@
     "tmp/ISIS.md",
     "tmp/BGP.md",
     "Linux/shell/Shell注释.md",
-    "Linux/shell/Shell变量.md",
-    "tmp/ipv6.md"
+    "Linux/shell/Shell变量.md"
   ]
 }

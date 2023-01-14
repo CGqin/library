@@ -8,56 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "517fffb32a993686",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ansible/主机清单.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "575eca3e370e7e6d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.8"
-              }
-            }
-          },
-          {
-            "id": "fd0a26f34862c5a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ansible/主机清单.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c561d6a67ef4c8a5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.9"
-              }
-            }
-          },
-          {
             "id": "60aa085a8fd74c15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ansible/文件和目录管理模块.md",
+                "file": "ansible/系统管理模块.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,17 +185,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "1d9cccc0a2598029",
+  "active": "60aa085a8fd74c15",
   "lastOpenFiles": [
-    "ansible/软件包管理模块.md",
     "ansible/服务管理模块.md",
     "ansible/文件和目录管理模块.md",
+    "ansible/主机清单.md",
+    "ansible/系统管理模块.md",
+    "ansible/软件包管理模块.md",
     "tmp/YAML.md",
     "Linux/Linux三剑客.md",
     "网络/PPP PPPoE.md",
     "网络/OSPF 的邻居状态.md",
-    "网络/OSPF.md",
-    "tmp/ISIS.md",
-    "tmp/BGP.md"
+    "网络/OSPF.md"
   ]
 }

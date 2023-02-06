@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ansible/用户管理模块.md",
+                "file": "Docker/Docker安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ansible/用户管理模块.md"
+                "file": "Docker/Docker安装.md"
               }
             }
           }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ansible/用户管理模块.md",
+                "file": "Docker/Docker安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ansible/用户管理模块.md",
+                "file": "Docker/Docker安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,6 +200,7 @@
   },
   "active": "4b7ecda0496dc1ad",
   "lastOpenFiles": [
+    "ansible/用户管理模块.md",
     "ansible/系统管理模块.md",
     "ansible/服务管理模块.md",
     "ansible/文件和目录管理模块.md",
@@ -208,7 +209,6 @@
     "tmp/YAML.md",
     "Linux/Linux三剑客.md",
     "网络/PPP PPPoE.md",
-    "网络/OSPF 的邻居状态.md",
-    "网络/OSPF.md"
+    "网络/OSPF 的邻居状态.md"
   ]
 }

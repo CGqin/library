@@ -73,14 +73,7 @@ docker version
 
 ```
 #!/bin/sh
-sudo yum remove docker \ 
-                docker-client \                  
-                docker-client-latest \                  
-                docker-common \                  
-                docker-latest \                  
-                docker-latest-logrotate \                  
-                docker-logrotate \                  
-                docker-engine
+sudo yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-engine
 yum -y install gcc
 yum -y install gcc-c++
 yum install -y yum-utils 

@@ -47,35 +47,19 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "yum源的名字": {
-      "yum源的名字": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673705641980
-        }
-      }
-    },
-    "group": {
-      "group": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673708607380
-        }
-      }
-    },
-    "absent删除": {
-      "absent删除": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673708732444
-        }
-      }
-    },
     "dns查询": {
       "dns查询": {
         "currentFile": {
           "count": 1,
           "lastUpdated": 1675690732426
+        }
+      }
+    },
+    "yum-utils": {
+      "yum-utils": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677063514372
         }
       }
     }

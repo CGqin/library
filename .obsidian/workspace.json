@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/网络利用.md",
+                "file": "Docker/Docker安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,17 +22,18 @@
           {
             "id": "e8b56a8e5e62bd3d",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Linux/基础命令/curl命令.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/基础命令/curl命令.md"
+                "file": "Docker/Docker安装.md"
               }
             }
           }
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/基础命令/curl命令.md",
+                "file": "Docker/Docker安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/基础命令/curl命令.md",
+                "file": "Docker/Docker安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,8 +163,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e8b56a8e5e62bd3d",
+  "active": "15b10185bb1a2068",
   "lastOpenFiles": [
+    "Linux/基础命令/curl命令.md",
     "tryhackme/网络利用.md",
     "未命名.md",
     "Docker/Docker安装.md",
@@ -172,7 +174,6 @@
     "ansible/服务管理模块.md",
     "ansible/文件和目录管理模块.md",
     "ansible/主机清单.md",
-    "ansible/软件包管理模块.md",
-    "tmp/YAML.md"
+    "ansible/软件包管理模块.md"
   ]
 }

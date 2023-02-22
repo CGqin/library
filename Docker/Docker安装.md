@@ -69,3 +69,19 @@ docker version
 ```
 
 ![image-20220916232055300](C:\Users\Cxuejia\AppData\Roaming\Typora\typora-user-images\image-20220916232055300.png)
+
+
+```
+ sudo yum remove docker \ 
+                 docker-client \                  
+                 docker-client-latest \                  
+                 docker-common \                  
+                 docker-latest \                  
+                 docker-latest-logrotate \                  
+                 docker-logrotate \                  
+                 docker-engine
+ yum -y install gcc
+ yum -y install gcc-c++
+ yum install -y yum-utils 
+ yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+```

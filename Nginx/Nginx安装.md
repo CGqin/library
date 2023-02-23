@@ -4,7 +4,7 @@
 
 3. 安装依赖环境
 	1. 安装gcc环境 
-		-  `yum install gcc-c++`
+		-  `yum install-y gcc-c++`
 	2. 安装PCRE库，用于解析正则表达式
 		- `yum install-y pcre pcre-devel`
 	3. zlib压缩和解压依赖

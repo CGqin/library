@@ -37,3 +37,6 @@ mkdir -p /var/temp/nginx
 --http-uwsgi-temp-path=/var/temp/nginx/uwsgi \
 --http-scgi-temp-path=/var/temp/nginx/scgi
 ```
+
+- 配置命令:
+	

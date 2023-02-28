@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx/Nginx安装.md",
+                "file": "ansible/系统管理模块.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nginx/Nginx安装.md"
+                "file": "ansible/系统管理模块.md"
               }
             }
           }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nginx/Nginx安装.md",
+                "file": "ansible/系统管理模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nginx/Nginx安装.md",
+                "file": "ansible/系统管理模块.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,10 +166,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
@@ -178,6 +178,9 @@
   },
   "active": "1b7ec235c12d8621",
   "lastOpenFiles": [
+    "ansible/文件和目录管理模块.md",
+    "ansible/软件包管理模块.md",
+    "Nginx/Nginx安装.md",
     "Docker/Docker安装.md",
     "Linux/基础命令/curl命令.md",
     "tryhackme/网络利用.md",
@@ -185,8 +188,6 @@
     "ansible/用户管理模块.md",
     "ansible/系统管理模块.md",
     "ansible/服务管理模块.md",
-    "ansible/文件和目录管理模块.md",
-    "ansible/主机清单.md",
-    "ansible/软件包管理模块.md"
+    "ansible/主机清单.md"
   ]
 }

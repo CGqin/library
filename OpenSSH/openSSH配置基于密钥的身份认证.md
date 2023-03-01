@@ -7,5 +7,5 @@ $ ssh-keygen -t rsa -C "xxxx@qq.com"
 ```
 2. 将密钥复制给服务器 
 ```bash
-
+$ ssh-copy-id -i .ssh/id_rsa.pub root@node2
 ```

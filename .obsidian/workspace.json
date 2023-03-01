@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6539e5ca73bc208e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XSS/XSS.md"
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md"
               }
             }
           }
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XSS/XSS.md",
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XSS/XSS.md",
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,10 +162,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "3c0635521c82c061",
+  "active": "6539e5ca73bc208e",
   "lastOpenFiles": [
-    "XSS/DQL（数据查询语言）+5f4ae4ce-a2a2-4594-8820-d800ec9a2c5c.md",
     "XSS/XSS.md",
+    "OpenSSH/openSSH配置基于密钥的身份认证.md",
+    "OpenSSH",
+    "XSS/DQL（数据查询语言）+5f4ae4ce-a2a2-4594-8820-d800ec9a2c5c.md",
     "README.md",
     "Linux/基础命令/curl命令.md",
     "ansible/系统管理模块.md",

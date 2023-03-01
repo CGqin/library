@@ -9,3 +9,7 @@ $ ssh-keygen -t rsa -C "xxxx@qq.com"
 ```bash
 $ ssh-copy-id -i .ssh/id_rsa.pub root@node2
 ```
+3. 登录服务器
+```bash
+$ ssh root@node2
+```

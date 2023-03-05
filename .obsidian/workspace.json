@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8aea8a9b64ca0f32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/重定向.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md"
+                "file": "Linux/重定向.md"
               }
             }
           }
@@ -108,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
+                "file": "Linux/重定向.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
+                "file": "Linux/重定向.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,10 +174,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6539e5ca73bc208e",
+  "active": "8aea8a9b64ca0f32",
   "lastOpenFiles": [
-    "XSS/XSS.md",
     "OpenSSH/openSSH配置基于密钥的身份认证.md",
+    "Linux/重定向.md",
+    "XSS/XSS.md",
     "OpenSSH",
     "XSS/DQL（数据查询语言）+5f4ae4ce-a2a2-4594-8820-d800ec9a2c5c.md",
     "README.md",

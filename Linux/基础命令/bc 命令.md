@@ -27,3 +27,24 @@ bc(选项)(参数)
 
 # 实例
 
+交互式模式:
+```
+$ bc
+bc 1.06.95
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'.
+2+3
+5
+5-2
+3
+2+3*1
+5
+quit
+```
+
+通过管道符号:
+```
+
+```
+

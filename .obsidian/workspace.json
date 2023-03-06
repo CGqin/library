@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "88b80529a2b708ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/基础命令/bc 命令.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -108,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/shell/$() ``.md"
+                "file": "Linux/基础命令/bc 命令.md"
               }
             }
           }
@@ -132,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/shell/$() ``.md",
+                "file": "Linux/基础命令/bc 命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/shell/$() ``.md",
+                "file": "Linux/基础命令/bc 命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,10 +198,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6f5af713f61aef78",
+  "active": "88b80529a2b708ce",
   "lastOpenFiles": [
-    "Linux/shell/运行Shell脚本的两种方法.md",
     "Linux/shell/$() ``.md",
+    "Linux/基础命令/bc 命令.md",
+    "Linux/shell/运行Shell脚本的两种方法.md",
     "Linux/shell/Shell注释.md",
     "Linux/shell/Shell变量.md",
     "Linux/基础命令/curl命令.md",

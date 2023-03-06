@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e9bea606cdead564",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -174,7 +184,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "8aea8a9b64ca0f32",
+  "active": "e9bea606cdead564",
   "lastOpenFiles": [
     "OpenSSH/openSSH配置基于密钥的身份认证.md",
     "Linux/重定向.md",

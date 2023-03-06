@@ -37,24 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/重定向.md",
+                "file": "Linux/基础命令/curl命令.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "e9bea606cdead564",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/重定向.md"
+                "file": "Linux/基础命令/curl命令.md"
               }
             }
           }
@@ -130,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/重定向.md",
+                "file": "Linux/基础命令/curl命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/重定向.md",
+                "file": "Linux/基础命令/curl命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,10 +174,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e9bea606cdead564",
+  "active": "8aea8a9b64ca0f32",
   "lastOpenFiles": [
-    "OpenSSH/openSSH配置基于密钥的身份认证.md",
+    "tryhackme/网络利用.md",
     "Linux/重定向.md",
+    "OpenSSH/openSSH配置基于密钥的身份认证.md",
     "XSS/XSS.md",
     "OpenSSH",
     "XSS/DQL（数据查询语言）+5f4ae4ce-a2a2-4594-8820-d800ec9a2c5c.md",
@@ -199,7 +190,6 @@
     "ansible/软件包管理模块.md",
     "Nginx/Nginx安装.md",
     "Docker/Docker安装.md",
-    "tryhackme/网络利用.md",
     "未命名.md",
     "ansible/用户管理模块.md",
     "ansible/服务管理模块.md",

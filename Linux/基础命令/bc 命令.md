@@ -28,7 +28,7 @@ bc(选项)(参数)
 # 实例
 
 交互式模式:
-```
+```bash
 $ bc
 bc 1.06.95
 Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
@@ -55,7 +55,19 @@ $ echo 'scale=2; (2.777 - 1.4744)/1' | bc
 1.30
 ```
 
-进制转换:
+进制转换, ibase 和 obase 来其它进制的运算:
+```bash
+#!/bin/bash
+
+abc=11000000 
+echo "obase=10;ibase=2;$abc" | bc
+#二进制转换为十进制
 ```
 
+计算平方和平方根：
+```bash
+$ echo "10^10" | bc 
+10000000000
+$ echo "sqrt(100)" | bc
+10
 ```

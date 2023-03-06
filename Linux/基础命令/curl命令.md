@@ -1,6 +1,6 @@
 # -i
 `-i` 参数打印出服务器回应的 HTTP标头和网站源码.
-```
+```bash
 # curl -i 192.168.1.99
 HTTP/1.1 200 OK
 Date: Wed, 08 Feb 2023 20:55:37 GMT
@@ -15,7 +15,7 @@ hello world
 ```
 # -I
 `-I` 参数向服务器发出 HEAD 请求，然会将服务器返回的 HTTP 标头打印出来。
-```
+```bash
 # curl -I 192.168.1.99
 HTTP/1.1 200 OK
 Date: Wed, 08 Feb 2023 20:56:46 GMT
@@ -28,7 +28,7 @@ Content-Type: text/html; charset=UTF-8
 ```
 # -v
 `-v` 参数输出通信的整个过程，用于调试。
-```
+```bash
 # curl -v 192.168.1.99
 * Rebuilt URL to: 192.168.1.99/
 *   Trying 192.168.1.99...
@@ -53,6 +53,15 @@ hello world
 ```
 # -L
 `-L` 参数来自动重定向跟踪响应头里的`Location`
+```bash
+curl -L liuxing.io
 ```
-
+# -o/O
+使用`-o`参数指定文件名，可以将响应结果储存到文件中
+```bash
+curl -o liuxing.io.html https://www.liuxing.io
+```
+还可以使用`-O`参数直接用服务器上的文件名保存在本地
+```bash
+curl -O https://www.liuxing.io/index.html
 ```

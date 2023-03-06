@@ -52,3 +52,7 @@ hello world
 * Connection #0 to host 192.168.1.99 left intact
 ```
 # -L
+`-L` 参数来自动重定向跟踪响应头里的`Location`
+```
+
+```

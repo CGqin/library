@@ -8,90 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3c0635521c82c061",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XSS/XSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6539e5ca73bc208e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8aea8a9b64ca0f32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/shell/运行Shell脚本的两种方法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f5af713f61aef78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/shell/$() ``.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88b80529a2b708ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/基础命令/bc 命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "303b12232bcf8645",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/基础命令/read 命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "506d6583d9723af8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/shell/$() ``.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "10b684199aaee843",
             "type": "leaf",
             "state": {
@@ -103,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,12 +152,13 @@
   "active": "10b684199aaee843",
   "lastOpenFiles": [
     "Linux/shell/$() ``.md",
+    "Linux/基础命令/read 命令.md",
+    "Linux/基础命令/bc 命令.md",
     "Linux/shell/处理用户输入/处理用户的输入.md",
+    "Linux/基础命令/getopt getopts.md",
     "Linux/shell/处理用户输入/处理用户输入.md",
     "Linux/shell/处理用户输入",
-    "Linux/基础命令/read 命令.md",
     "Linux/shell/处理用户输入",
-    "Linux/基础命令/bc 命令.md",
     "Linux/shell/运行Shell脚本的两种方法.md",
     "Linux/shell/Shell注释.md",
     "Linux/shell/Shell变量.md",

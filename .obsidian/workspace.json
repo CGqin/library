@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/shell/处理用户输入/处理用户的输入.md",
+                "file": "Linux/重定向.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6508f748a1bc4205",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/基础命令/tee 命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -83,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/shell/处理用户输入/处理用户的输入.md"
+                "file": "Linux/重定向.md"
               }
             }
           }
@@ -107,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/shell/处理用户输入/处理用户的输入.md",
+                "file": "Linux/重定向.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/shell/处理用户输入/处理用户的输入.md",
+                "file": "Linux/重定向.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,8 +175,9 @@
   },
   "active": "10b684199aaee843",
   "lastOpenFiles": [
+    "Linux/shell/处理用户输入/处理用户输入和呈现数据.md",
+    "Linux/基础命令/tee 命令.md",
     "Linux/基础命令/mktemp 命令.md",
-    "Linux/shell/处理用户输入/处理用户的输入.md",
     "Linux/重定向.md",
     "Linux/基础命令/echo 命令.md",
     "Linux/shell/$() ``.md",
@@ -191,7 +204,6 @@
     "ansible/软件包管理模块.md",
     "Nginx/Nginx安装.md",
     "Docker/Docker安装.md",
-    "未命名.md",
-    "ansible/用户管理模块.md"
+    "未命名.md"
   ]
 }

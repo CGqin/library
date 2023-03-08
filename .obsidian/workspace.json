@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/shell/处理用户输入/处理用户输入和呈现数据.md",
+                "file": "Linux/shell/Shell编程/处理用户输入和呈现数据.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/shell/处理用户输入/处理用户输入和呈现数据.md"
+                "file": "Linux/shell/Shell编程/处理用户输入和呈现数据.md"
               }
             }
           }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/shell/处理用户输入/处理用户输入和呈现数据.md",
+                "file": "Linux/shell/Shell编程/处理用户输入和呈现数据.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/shell/处理用户输入/处理用户输入和呈现数据.md",
+                "file": "Linux/shell/Shell编程/处理用户输入和呈现数据.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,8 +175,10 @@
   },
   "active": "10b684199aaee843",
   "lastOpenFiles": [
-    "Linux/shell/处理用户输入/处理用户输入.md",
-    "Linux/shell/处理用户输入/处理用户输入和呈现数据.md",
+    "Linux/shell/Shell编程/脚本控制.md",
+    "Linux/shell/处理用户输入/未命名 1.md",
+    "Linux/shell/Shell编程/处理用户输入和呈现数据.md",
+    "Linux/shell/Shell编程/处理用户输入.md",
     "Linux/重定向.md",
     "Linux/基础命令/tee 命令.md",
     "Linux/基础命令/mktemp 命令.md",
@@ -185,8 +187,8 @@
     "Linux/基础命令/read 命令.md",
     "Linux/基础命令/bc 命令.md",
     "Linux/基础命令/getopt getopts.md",
-    "Linux/shell/处理用户输入",
-    "Linux/shell/处理用户输入",
+    "Linux/shell/Shell编程",
+    "Linux/shell/Shell编程",
     "Linux/shell/运行Shell脚本的两种方法.md",
     "Linux/shell/Shell注释.md",
     "Linux/shell/Shell变量.md",
@@ -202,8 +204,6 @@
     "XSS",
     "ansible/文件和目录管理模块.md",
     "ansible/软件包管理模块.md",
-    "Nginx/Nginx安装.md",
-    "Docker/Docker安装.md",
-    "未命名.md"
+    "Nginx/Nginx安装.md"
   ]
 }

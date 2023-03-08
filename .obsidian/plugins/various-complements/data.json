@@ -134,6 +134,14 @@
           "lastUpdated": 1678255989447
         }
       }
+    },
+    "testfile": {
+      "testfile": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678256769812
+        }
+      }
     }
   }
 }

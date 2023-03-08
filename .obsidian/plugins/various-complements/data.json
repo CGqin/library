@@ -150,6 +150,14 @@
           "lastUpdated": 1678262511119
         }
       }
+    },
+    "SIGINT": {
+      "SIGINT": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678277042410
+        }
+      }
     }
   }
 }

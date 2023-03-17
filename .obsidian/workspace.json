@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dhcp_server/dhcpd.conf.md",
+                "file": "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dhcp_server/dhcpd.conf.md"
+                "file": "服务器搭建/HTTP服务器/python搭建简易http服务器.md"
               }
             }
           }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dhcp_server/dhcpd.conf.md",
+                "file": "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dhcp_server/dhcpd.conf.md",
+                "file": "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,8 +164,8 @@
   },
   "active": "9ffb410fffe64951",
   "lastOpenFiles": [
-    "网络/PPP PPPoE.md",
     "dhcp_server/dhcpd.conf.md",
+    "网络/PPP PPPoE.md",
     "dhcp_server",
     "网络/vrrp.md",
     "网络/OSPF 的邻居状态.md",

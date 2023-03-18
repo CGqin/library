@@ -132,3 +132,20 @@ anon_upload_enable=YES
 ```
 anon_other_write_enable=YES
 ```
+
+# 仅能上传，无法下载
+
+```bash
+write_enable=YES
+anon_mkdir_write_enable=YES
+anon_upload_enable=YES
+chown_uploads=YES
+chown_username=root         # 上传的文件所有者被改为root，匿名用户的ftp用户就无法读取，下载了。
+```
+
+# 配置vsftpd 系统认证
+
+```
+local_enable=YES
+write_enable=YES
+```

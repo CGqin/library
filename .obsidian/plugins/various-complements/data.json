@@ -47,14 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "dns查询": {
-      "dns查询": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675690732426
-        }
-      }
-    },
     "yum-utils": {
       "yum-utils": {
         "currentFile": {
@@ -156,6 +148,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1678277042410
+        }
+      }
+    },
+    "daemon": {
+      "daemon": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1679124236112
+        }
+      }
+    },
+    "vsftpd": {
+      "vsftpd": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1679124292403
         }
       }
     }

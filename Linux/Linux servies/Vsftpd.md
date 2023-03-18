@@ -24,4 +24,14 @@ vsftpd，ftp服务端
 ```bash
 man 5 vsftpd.conf
 ```
-# 
+
+# 运行
+
+## standalone
+
+最普遍的方式
+```bash
+sudo systemctl start vsftpd
+```
+
+## super daemon 

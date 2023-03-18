@@ -38,5 +38,9 @@ sudo systemctl start vsftpd
 
 1. 修改vsftpd.conf
 ```
-
+listen=NO
 ```
+---
+> 这里若不改成NO，会出现下列错误
+> 500 OOPS: could not bind listening IPv4 socket
+

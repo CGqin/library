@@ -149,3 +149,7 @@ chown_username=root         # 上传的文件所有者被改为root，匿名用�
 local_enable=YES          # 设定vsftp认证系统用户
 write_enable=YES          # 允许他们上传文件
 ```
+
+# Chroot
+
+## 

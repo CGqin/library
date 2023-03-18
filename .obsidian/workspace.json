@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f0f73d8506f106e8",
+        "id": "0a6001b37e98f5ee",
         "type": "tabs",
         "children": [
           {
-            "id": "8bd2a42a7f5ad679",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络/PPP PPPoE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ffb410fffe64951",
+            "id": "d7852c28d675d2c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,23 +149,27 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "9ffb410fffe64951",
+  "active": "d7852c28d675d2c8",
   "lastOpenFiles": [
-    "dhcp_server/dhcpd.conf.md",
+    "Nginx/Nginx安装.md",
+    "tmp/STP.md",
+    "tmp/tmp.md",
+    "tmp/路由基础.md",
+    "Docker/Docker容器.md",
+    "Docker/Docker安装.md",
     "网络/PPP PPPoE.md",
+    "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
+    "dhcp_server/dhcpd.conf.md",
     "dhcp_server",
     "网络/vrrp.md",
     "网络/OSPF 的邻居状态.md",
     "网络/OSPF.md",
     "网络/链路聚合.md",
     "网络/单臂路由.md",
-    "tmp/STP.md",
     "tmp/网络类型.md",
-    "tmp/路由基础.md",
     "tmp/路由策略.md",
     "tmp/DHCP.md",
     "tmp/YAML.md",
-    "tmp/tmp.md",
     "tmp/shell变量.md",
     "tmp/RIP配置.md",
     "tmp/BGP.md",
@@ -187,10 +178,6 @@
     "tmp/ipv6.md",
     "Linux/shell/Shell编程/处理用户输入和呈现数据.md",
     "Linux/shell/处理用户输入/未命名 1.md",
-    "Linux/shell/Shell编程/处理用户输入.md",
-    "Linux/重定向.md",
-    "Linux/基础命令/tee 命令.md",
-    "Linux/基础命令/mktemp 命令.md",
     "Linux/shell/Shell编程",
     "Linux/shell/Shell编程",
     "OpenSSH",

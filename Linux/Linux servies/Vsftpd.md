@@ -126,4 +126,8 @@ anon_upload_enable=YES
 所以解决方法是建个单独的public文件夹用于上传文件，设置其为ftp可写或”其他用户可写“
 还可建个download文件夹只用于下载，设置其他用户没有写权限便可。
 
-# 
+# 允许匿名用户重命名、删除文件
+
+```
+anon_other_write_enable=YES
+```

@@ -146,6 +146,6 @@ chown_username=root         # 上传的文件所有者被改为root，匿名用�
 # 配置vsftpd 系统认证
 
 ```
-local_enable=YES
-write_enable=YES
+local_enable=YES          # 设定vsftp认证系统用户
+write_enable=YES          # 允许他们上传文件
 ```

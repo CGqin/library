@@ -196,6 +196,7 @@ auth    required        pam_shells.so
 
 ## *userlist_file* 文件
 
+vsftpd自订的列表，跟/etc/ftpusers类似，具体文件名和路径是由用户自己指定的。
 ```bash
 userlist_enable=YES
 userlist_deny=YES/NO

@@ -113,6 +113,10 @@ anonymous_enable=YES
 
 # 允许匿名上传
 
+```bash
+write_enable=YES
+anon_mkdir_write_enable=YES
+anon_upload_enable=YES
 ```
 
-```
+# 

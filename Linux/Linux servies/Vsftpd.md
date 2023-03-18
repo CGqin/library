@@ -173,3 +173,26 @@ chroot_local_user=YES
 chroot_list_enable=YES
 chroot_list_file=/etc/vsftpd.chroot_list    # 将开放的用户写在列表中
 ```
+
+# 账号登录
+
+## /etc/ftpusers文件
+
+该文件内的用户一律禁止ftp连接，默认列表包括了root, daemon, nobody等。需要禁止某个用户，添加进来便是。
+这个文件是由PAM模块的 /etc/pam.d/vsftpd 指定的
+```bash
+$ sudo cat /etc/pam.d/vsftpd
+# Standard behaviour for ftpd(8).
+auth    required        pam_listfile.so item=user sense=deny file=/etc/ftpusers onerr=succeed
+
+# Note: vsftpd handles anonymous logins on its own. Do not enable pam_ftp.so.
+
+# Standard pam includes
+@include common-account
+@include common-session
+@include common-auth
+auth    required        pam_shells.so
+```
+
+## userlist_file 文件
+

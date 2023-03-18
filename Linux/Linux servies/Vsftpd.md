@@ -20,4 +20,7 @@ vsftpd，ftp服务端
 ├── vsftpd.conf
 └── vsftpd_conf_migrate.sh
 ```
-- 
+- 查阅配置文件详细信息
+```bash
+man 5 vsftpd.conf
+```

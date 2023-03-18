@@ -104,3 +104,11 @@ anon_other_write_enable=<YES/NO> :设置是否允许匿名用户其他的写权
 anon_umask=<nnn> :设置匿名用户上传的文件的生成掩码，默认为077
 ```
 
+# 允许匿名访问
+
+```bash
+# Allow anonymous FTP? (Disabled by default)
+anonymous_enable=YES
+```
+
+# 

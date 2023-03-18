@@ -111,4 +111,8 @@ anon_umask=<nnn> :设置匿名用户上传的文件的生成掩码，默认为0
 anonymous_enable=YES
 ```
 
-# 
+# 允许匿名上传
+
+```
+
+```

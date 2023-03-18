@@ -41,7 +41,7 @@ sudo systemctl start vsftpd
 listen=NO
 ```
 ---
- 这里若不改成NO，会出现下列错误
+这里若不改成NO，会出现下列错误
 500 OOPS: could not bind listening IPv4 socket
 
 2. 安装并配置xinetd

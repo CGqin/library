@@ -161,5 +161,15 @@ chroot_local_user=YES
 ## 开放所有，限制特定(黑名单)
 
 ```
+chroot_local_user=NO
+chroot_list_enable=YES
+chroot_list_file=/etc/vsftpd.chroot_list    # 将限制的用户写在此列表中
+```
 
+## 限制所有，开放特定(白名单)
+
+```
+chroot_local_user=YES
+chroot_list_enable=YES
+chroot_list_file=/etc/vsftpd.chroot_list    # 将开放的用户写在列表中
 ```

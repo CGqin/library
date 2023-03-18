@@ -41,6 +41,27 @@ sudo systemctl start vsftpd
 listen=NO
 ```
 ---
-> 这里若不改成NO，会出现下列错误
-> 500 OOPS: could not bind listening IPv4 socket
+ 这里若不改成NO，会出现下列错误
+500 OOPS: could not bind listening IPv4 socket
 
+2. 安装并配置xinetd
+```bash
+$ sudo yum install -y xinetd
+$ sudo vi /etc/xinetd.conf
+service ftp
+{
+        socket_type             = stream
+        wait                    = no
+        user                    = root
+        server                  = /usr/sbin/vsftpd
+        log_on_success          += DURATION USERID
+        log_on_failure          += USERID
+        nice                    = 10
+        disable                 = no
+}
+```
+3. 停止vsftpd，启动xinetd
+```bash
+sudo systemctl stop vsftpd 
+sudo service xinetd start 
+```

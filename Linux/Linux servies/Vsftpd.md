@@ -129,7 +129,7 @@ anon_upload_enable=YES
 # 允许匿名用户重命名、删除文件
 
 开放重命名，删除文件等权限，不开的话没法续传。
-```
+```bash
 anon_other_write_enable=YES
 ```
 

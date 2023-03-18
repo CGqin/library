@@ -88,7 +88,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -162,7 +163,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "314e40c2375484a3",
+  "active": "9caccb93003982f6",
   "lastOpenFiles": [
     "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
     "Linux/Linux servies/Vsftpd.md",

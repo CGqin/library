@@ -13,6 +13,10 @@ vsftpd，ftp服务端
 /srv/ftp
 ```
 - 配置文件
-```
-
+```bash
+/etc/vsftpd/
+├── ftpusers
+├── user_list
+├── vsftpd.conf
+└── vsftpd_conf_migrate.sh
 ```

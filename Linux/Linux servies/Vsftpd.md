@@ -194,5 +194,13 @@ auth    required        pam_listfile.so item=user sense=deny file=/etc/ftpusers 
 auth    required        pam_shells.so
 ```
 
-## userlist_file 文件
+## *userlist_file* 文件
 
+```bash
+userlist_enable=YES
+userlist_deny=YES
+userlist_file=/etc/vsftpd.user_list
+```
+
+- 当 `userlist_deny=YES` 时, userlist_file该内的用户一律禁止ftp连接
+- 当 `userlist_deny=NO` 时, 

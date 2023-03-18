@@ -35,3 +35,8 @@ sudo systemctl start vsftpd
 ```
 
 ## super daemon 
+
+1. 修改vsftpd.conf
+```
+
+```

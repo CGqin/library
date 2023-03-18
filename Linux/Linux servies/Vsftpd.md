@@ -65,3 +65,9 @@ service ftp
 sudo systemctl stop vsftpd 
 sudo service xinetd start 
 ```
+
+# /etc/vsftpd/vsftpd.conf
+
+```
+
+```

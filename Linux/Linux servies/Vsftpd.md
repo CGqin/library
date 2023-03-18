@@ -152,4 +152,14 @@ write_enable=YES          # 允许他们上传文件
 
 # Chroot
 
-## 
+## 限制所有
+
+```
+chroot_local_user=YES
+```
+
+## 开放所有，限制特定(黑名单)
+
+```
+
+```

@@ -208,3 +208,8 @@ userlist_file=/etc/vsftpd.user_list
 
 # 欢迎信息
 
+```bash
+dirmessage_enable=YES
+```
+
+在各个用户home目录下的 `.message` 

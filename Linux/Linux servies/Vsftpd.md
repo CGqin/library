@@ -212,4 +212,5 @@ userlist_file=/etc/vsftpd.user_list
 dirmessage_enable=YES
 ```
 
-在各个用户home目录下的 `.message` 
+在各个用户home目录下的 `.message` 编辑欢迎信息(匿名用户就放到/var/ftp)
+

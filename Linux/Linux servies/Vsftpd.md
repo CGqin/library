@@ -221,4 +221,113 @@ $ cat .message
 欢迎来到vsftpd
 ```
 
-# 
+# 使用虚拟用户登入
+
+这样就可以用虚拟账号登入了 ftpadmin、ftpuser分别登入之后访问的是ftp3、ftp1目录
+
+```bash
+#创建两个目录
+[root@localhost ~]#mkdir /home/vsftpd/ftp1
+[root@localhost ~]# mkdir /home/vsftpd/ftp3
+
+[root@localhost ~]# vi /etc/vsftpd/loginuser.txt
+
+#加入两个用户  奇数行代表用户名 偶数行代表密码
+xftpadmin
+123456
+xftpuser
+123456
+
+#执行命令 生成虚拟数据库
+[root@localhost ~]# db_load -T -t hash -f /etc/vsftpd/loginuser.txt /etc/vsftpd/login.db
+#设置数据库文件的访问权限
+[root@localhost ~]# chmod 600 /etc/vsftpd/login.db
+
+[root@localhost ~]# vi /etc/pam.d/vsftpd
+
+#将以下内容增加的原文件前面两行：
+auth required pam_userdb.so db=/etc/vsftpd/login
+account required pam_userdb.so db=/etc/vsftpd/login
+       #我们建立的虚拟用户将采用PAM进行验证，这是通过/etc/vsftpd.conf文件中的 语句pam_service_name=vsftpd.vu来启用的。
+
+vsftpd使用的pam文件
+auth    sufficient      pam_userdb.so db=/etc/vsftpd/login
+account sufficient      pam_userdb.so db=/etc/vsftpd/login
+
+#auth       required     pam_listfile.so item=user sense=deny file=/etc/vsftpd.ftpusers onerr=succeed
+#auth       required     pam_stack.so service=system-auth
+#auth       required     pam_shells.so
+#account    required     pam_stack.so service=system-auth
+#session    required     pam_stack.so service=system-auth
+
+可以看出前面两行是对虚拟用户的验证，后面是对系统用户的验证。 为了安全我一般把系统用户的登入关闭  使用虚拟账号登入ftp
+对虚拟用户的验证使用了sufficient这个控制标志。
+这个标志的含义是如果这个模块验证通过，就不必使用后面的层叠模块进行验证了；但如果失败了，
+就继续后面的认证，也就是使用系统真实用户的验证。
+虚拟用户创建本地系统用户
+
+#新建一个系统用户vsftpd, 用户登录终端设为/bin/false(即使之不能登录系统)
+[root@localhost ~]# useradd vsftpd -d /home/vsftpd -s /bin/false 
+[root@localhost ~]# chown vsftpd:vsftpd /home/vsftpd #改变目录所属用户组
+
+根据需要创建/etc/vsftpd/vsftpd.conf，以下设置： 
+listen=YES                       #监听为专用模式
+anonymous_enable=NO              #禁用匿名登入
+dirmessage_enable=YES
+xferlog_enable=YES
+xferlog_file=/var/log/vsftpd.log   #记录ftp操作日志
+xferlog_std_format=YES
+chroot_local_user=YES          #对用户访问只限制在主目录 不能访问其他目录
+guest_enable=YES               #启用guest
+guest_username=vsftpd           #使用虚拟账号形式
+user_config_dir=/etc/vsftpd_user_conf  #虚拟账号配置目录
+pam_service_name=vsftpd              #对vsftpd的用户使用pam认证
+local_enable=YES
+
+#执行以下命令
+[root@localhost ~]# mkdir /etc/vsftpd/user_conf
+[root@localhost ~]# cd /etc/vsftpd/user_conf
+[root@localhost ~]# touch xftpuser xftpadmin #创建两个文件
+
+[root@localhost ~]# vi /etc/vsftpd/user_config/xftpadmin
+
+#加入以下内容 拥有所有权限
+write_enable=YES
+anon_world_readable_only=NO
+anon_upload_enable=YES
+anon_mkdir_write_enable=YES
+anon_other_write_enable=YES
+local_root=/home/vsftpd/ftp3
+
+[root@localhost ~]# vi /etc/vsftpd/user_config/xftpuser
+
+#加入以下内容 只读权限
+local_root=/home/vsftpd/ftp1
+
+#登入 使用ftp1用户登入看看 
+如果不能读写操作 可能是目录权限不够需要设置权限 试试看
+[root@localhost ~]# chmod 777 /home/vsftpd/ftp3
+```
+
+# 使用ssl登入
+
+这样重启vsftpd 就可以用客户端来尝试进行SSL加密连接了
+
+```bash
+[root@localhost ~]# cd /etc/pki/tls/certs/
+[root@localhost ~]# openssl req -new -x509 -nodes -out vsftpd.pem -keyout vsftpd.pem
+
+4 修改vsftpd.conf文件
+[root@localhost ~]#vi /usr/local/etc/vsftpd.conf .
+
+ssl_enable=YES(开启vsftpd对ssl协议的支持)
+ssl_sslv2=YES（支持SSL v2 protocol）
+ssl_sslv3=YES（支持SSL v3 protocol）
+ssl_tlsv1=YES（支持TSL v1）
+rsa_cert_file=/etc/pki/tls/certs/vsftpd.pem（证书的路径）
+
+ssl_enable=YES
+ssl_sslv2=YES
+ssl_sslv3=YES
+ssl_tlsv1=YES
+```

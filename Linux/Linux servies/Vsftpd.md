@@ -205,3 +205,6 @@ userlist_file=/etc/vsftpd.user_list
 
 - 当 `userlist_deny=YES` 时, userlist_file该内的用户一律禁止ftp连接
 - 当 `userlist_deny=NO` 时, 限制一切用户登录，只允许列表文件中的用户
+
+# 欢迎信息
+

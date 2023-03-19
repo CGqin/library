@@ -1,4 +1,7 @@
 vsftpd，ftp服务端
+参考文档:
+- https://www.cnblogs.com/rxysg/p/15698426.html
+- https://wiki.ubuntu.com.cn/Vsftpd
 
 # stand alone和super daemon
 

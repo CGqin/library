@@ -213,4 +213,7 @@ dirmessage_enable=YES
 ```
 
 在各个用户home目录下的 `.message` 编辑欢迎信息(匿名用户就放到/var/ftp)
-
+```bash
+$ cat .message 
+欢迎来到vsftpd
+```

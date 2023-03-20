@@ -163,10 +163,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "314e40c2375484a3",
+  "active": "9caccb93003982f6",
   "lastOpenFiles": [
-    "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
+    "dhcp_server/dhcpd.conf.md",
     "Linux/Linux servies/Vsftpd.md",
+    "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
     "Linux/Linux servies",
     "Linux/未命名.md",
     "Nginx/Nginx安装.md",
@@ -176,7 +177,6 @@
     "Docker/Docker容器.md",
     "Docker/Docker安装.md",
     "网络/PPP PPPoE.md",
-    "dhcp_server/dhcpd.conf.md",
     "dhcp_server",
     "网络/vrrp.md",
     "网络/OSPF 的邻居状态.md",

@@ -11,8 +11,12 @@
             "id": "7984a13684fd30c5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux servies/DNS.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -66,7 +70,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Linux/Linux servies/DNS.md"
+              }
             }
           }
         ]
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Linux/Linux servies/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Linux/Linux servies/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,6 +151,7 @@
   },
   "active": "7984a13684fd30c5",
   "lastOpenFiles": [
+    "Linux/Linux servies/DNS.md",
     "Linux/Linux servies/Vsftpd.md",
     "google hacking/google hacking.md",
     "google hacking",
@@ -171,7 +180,6 @@
     "tmp/RIP配置.md",
     "tmp/BGP.md",
     "Linux/shell/Shell编程/脚本控制.md",
-    "tmp/ISIS.md",
     "Linux/shell/Shell编程",
     "Linux/shell/Shell编程",
     "OpenSSH",

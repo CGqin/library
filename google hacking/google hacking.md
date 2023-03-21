@@ -13,4 +13,5 @@
 - intitle
 - inurl
 - filetype
+- link
 - 

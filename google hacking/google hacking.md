@@ -1,3 +1,7 @@
+
+参考文档:
+https://zhuanlan.zhihu.com/p/400365865
+
 # 基本搜索
 
 -   逻辑与：and

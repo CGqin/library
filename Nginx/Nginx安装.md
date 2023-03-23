@@ -38,5 +38,21 @@ mkdir -p /var/temp/nginx
 --http-scgi-temp-path=/var/temp/nginx/scgi
 ```
 
-- 配置命令:
-	
+- 配置开机自启:
+```shell
+/usr/lib/systemd/system/nginx.service
+
+    [Unit]
+    Description=nginx
+    After=network.target
+        
+    [Service]
+    Type=forking
+    ExecStart=/usr/local/nginx/sbin/nginx
+    ExecReload=/usr/local/nginx/sbin/nginx -s reload
+    ExecStop=/usr/local/nginx/sbin/nginx -s quit
+    PrivateTmp=true
+        
+    [Install]
+    WantedBy=multi-user.target
+```

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux servies/DNS.md",
-                "mode": "preview",
+                "file": "Nginx/Nginx.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux servies/DNS.md"
+                "file": "Nginx/Nginx.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux servies/DNS.md",
+                "file": "Nginx/Nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux servies/DNS.md",
+                "file": "Nginx/Nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,18 +151,19 @@
   },
   "active": "7984a13684fd30c5",
   "lastOpenFiles": [
+    "Nginx/Nginx安装.md",
+    "Nginx/Nginx.md",
+    "Linux/Linux servies/DNS.md",
+    "Linux/Linux servies/Vsftpd.md",
     "Attachment/Pasted image 20230321210426.png",
     "Attachment/Pasted image 20230321205750.png",
     "Attachment/Pasted image 20230321205718.png",
-    "Linux/Linux servies/DNS.md",
-    "Linux/Linux servies/Vsftpd.md",
     "google hacking/google hacking.md",
     "google hacking",
     "dhcp_server/dhcpd.conf.md",
     "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
     "Linux/Linux servies",
     "Linux/未命名.md",
-    "Nginx/Nginx安装.md",
     "tmp/STP.md",
     "tmp/tmp.md",
     "tmp/路由基础.md",

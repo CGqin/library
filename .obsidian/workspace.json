@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx/Nginx.md",
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
                 "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "0645054a1cdf6829",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenSSH/源码升级Openssh.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nginx/Nginx.md"
+                "file": "OpenSSH/源码升级Openssh.md"
               }
             }
           }
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nginx/Nginx.md",
+                "file": "OpenSSH/源码升级Openssh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nginx/Nginx.md",
+                "file": "OpenSSH/源码升级Openssh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,10 +162,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "7984a13684fd30c5",
+  "active": "0645054a1cdf6829",
   "lastOpenFiles": [
-    "Nginx/Nginx安装.md",
+    "OpenSSH/openSSH配置基于密钥的身份认证.md",
+    "OpenSSH/源码升级Openssh.md",
     "Nginx/Nginx.md",
+    "Nginx/Nginx安装.md",
     "Linux/Linux servies/DNS.md",
     "Linux/Linux servies/Vsftpd.md",
     "Attachment/Pasted image 20230321210426.png",
@@ -181,8 +196,6 @@
     "tmp/DHCP.md",
     "tmp/YAML.md",
     "tmp/shell变量.md",
-    "tmp/RIP配置.md",
-    "tmp/BGP.md",
     "Linux/shell/Shell编程",
     "Linux/shell/Shell编程",
     "OpenSSH",

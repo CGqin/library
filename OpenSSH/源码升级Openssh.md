@@ -27,10 +27,7 @@ yum install -y libtool
 ```shell
 ./configure
 ```
-> 异常:
-```shell
-
-```
+> 如果遇见 `#include <**xxx**.h>`时，什么都不用考虑，直接取执行安装命令：`yum -y install **xxx**-devel`，然后进行重试
 1. 编译
 ```shell
 make

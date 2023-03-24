@@ -125,4 +125,11 @@ firewall-cmd --list-all --zone=trusted
 9.  测试
 	a. Linux 挂载 NFS
 		i. 挂载（本机挂载，仅用于测试，其他Linux客户端挂载同理，客户端与服务端安装相同的软件）
-		
+```shell 
+	mkdir -p /test/nfs
+	mount -t nfs 127.0.0.1:/nfs /test/nfs
+
+	# 永久挂载
+	# vim /etc/fstab
+	# 127.0.0.1:/nfs  /test/nfs       nfs     defaults,_netdev 0 0	
+```

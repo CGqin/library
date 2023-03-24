@@ -1,3 +1,5 @@
+原文链接: https://www.yuque.com/xuxiaowei-com-cn/gitlab-k8s/nfs
+
 1. 安装NFS
 ```shell
 yum -y install rpcbind nfs-utils
@@ -133,3 +135,41 @@ firewall-cmd --list-all --zone=trusted
 	# vim /etc/fstab
 	# 127.0.0.1:/nfs  /test/nfs       nfs     defaults,_netdev 0 0	
 ```
+
+```shell
+[root@localhost ~]# mkdir /test/nfsmkdir -p /test/nfs
+[root@localhost ~]# mount -t nfs 127.0.0.1:/nfs /test/nfs
+[root@localhost ~]#
+```
+
+```shell
+[root@localhost ~]# df -h
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs             897M     0  897M   0% /dev
+tmpfs                910M     0  910M   0% /dev/shm
+tmpfs                910M  9.6M  901M   2% /run
+tmpfs                910M     0  910M   0% /sys/fs/cgroup
+/dev/mapper/ao-root  197G  1.6G  196G   1% /
+/dev/sda1           1014M  155M  860M  16% /boot
+127.0.0.1:/nfs       197G  1.6G  196G   1% /test/nfs
+tmpfs                182M     0  182M   0% /run/user/0
+[root@localhost ~]# 
+```
+
+b.  Windows 挂载 NFS
+	i. 挂载（需要 Windows 中打开此功能）
+	![](https://cgqin.github.io/images//202303242216844.png)
+```shell
+mount \\192.168.61.147\nfs W:\
+```
+
+```shell
+C:\Users\xuxiaowei>mount \\192.168.61.147\nfs W:\
+W: 现已成功连接到 \\192.168.61.147\nfs
+
+命令已成功完成。
+
+C:\Users\xuxiaowei>
+```
+ ii. 查看
+![](https://cgqin.github.io/images//202303242215435.png)

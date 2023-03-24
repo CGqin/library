@@ -47,22 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "yum-utils": {
-      "yum-utils": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677063514372
-        }
-      }
-    },
-    "makecache": {
-      "makecache": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677063558828
-        }
-      }
-    },
     "安装gcc环境": {
       "安装gcc环境": {
         "currentFile": {
@@ -180,6 +164,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1679128812892
+        }
+      }
+    },
+    "检查端口与进程": {
+      "检查端口与进程": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1679666582493
+        }
+      }
+    },
+    "shell": {
+      "shell": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1679666767700
         }
       }
     }

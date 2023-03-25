@@ -158,7 +158,7 @@ tmpfs                182M     0  182M   0% /run/user/0
 
 b.  Windows 挂载 NFS
 	i. 挂载（需要 Windows 中打开此功能）
-	![](https://cgqin.github.io/images//202303242216844.png
+	![](https://cgqin.github.io/images//202303242216844.png)
 ```shell
 mount \\192.168.61.147\nfs W:\
 ```
@@ -172,4 +172,4 @@ W: 现已成功连接到 \\192.168.61.147\nfs
 C:\Users\xuxiaowei>
 ```
  ii. 查看
-![](https://cgqin.github.io/images//202303242215435.png
+![](https://cgqin.github.io/images//202303242215435.png)

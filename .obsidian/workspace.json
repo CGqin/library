@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "NFS/NFS配置.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -176,12 +176,12 @@
   },
   "active": "29e09f6a281f609b",
   "lastOpenFiles": [
-    "OpenSSH/源码升级Openssh.md",
-    "NFS/NFS配置.md",
-    "NFS",
     "OpenSSH/openSSH配置基于密钥的身份认证.md",
+    "OpenSSH/源码升级Openssh.md",
     "Nginx/Nginx.md",
     "Nginx/Nginx安装.md",
+    "NFS/NFS配置.md",
+    "NFS",
     "Linux/Linux servies/DNS.md",
     "Linux/Linux servies/Vsftpd.md",
     "Attachment/Pasted image 20230321210426.png",

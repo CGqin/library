@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/基础命令/curl命令.md",
+                "file": "Linux/重定向.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/基础命令/curl命令.md"
+                "file": "Linux/重定向.md"
               }
             }
           }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/基础命令/curl命令.md",
+                "file": "Linux/重定向.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/基础命令/curl命令.md",
+                "file": "Linux/重定向.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,6 +176,7 @@
   },
   "active": "29e09f6a281f609b",
   "lastOpenFiles": [
+    "Linux/基础命令/curl命令.md",
     "NFS/NFS配置.md",
     "OpenSSH/openSSH配置基于密钥的身份认证.md",
     "OpenSSH/源码升级Openssh.md",
@@ -208,7 +209,6 @@
     "tmp/网络类型.md",
     "tmp/路由策略.md",
     "tmp/DHCP.md",
-    "tmp/YAML.md",
     "Linux/shell/Shell编程",
     "Linux/shell/Shell编程",
     "OpenSSH",

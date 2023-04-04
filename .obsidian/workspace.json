@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NFS/NFS配置.md",
+                "file": "Linux/基础命令/curl命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NFS/NFS配置.md"
+                "file": "Linux/基础命令/curl命令.md"
               }
             }
           }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NFS/NFS配置.md",
+                "file": "Linux/基础命令/curl命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NFS/NFS配置.md",
+                "file": "Linux/基础命令/curl命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,11 +176,11 @@
   },
   "active": "29e09f6a281f609b",
   "lastOpenFiles": [
+    "NFS/NFS配置.md",
     "OpenSSH/openSSH配置基于密钥的身份认证.md",
     "OpenSSH/源码升级Openssh.md",
     "Nginx/Nginx.md",
     "Nginx/Nginx安装.md",
-    "NFS/NFS配置.md",
     "NFS",
     "Linux/Linux servies/DNS.md",
     "Linux/Linux servies/Vsftpd.md",

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/重定向.md",
+                "file": "Linux/shell/Shell编程/处理用户输入.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/重定向.md"
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md"
               }
             }
           }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/重定向.md",
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/重定向.md",
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +174,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "29e09f6a281f609b",
+  "active": "8810c2df1e7775f9",
   "lastOpenFiles": [
+    "Linux/shell/Shell编程/处理用户输入和呈现数据.md",
+    "Linux/shell/Shell编程/脚本控制.md",
+    "Linux/重定向.md",
     "Linux/基础命令/curl命令.md",
     "NFS/NFS配置.md",
     "OpenSSH/openSSH配置基于密钥的身份认证.md",
@@ -206,9 +209,6 @@
     "网络/OSPF.md",
     "网络/链路聚合.md",
     "网络/单臂路由.md",
-    "tmp/网络类型.md",
-    "tmp/路由策略.md",
-    "tmp/DHCP.md",
     "Linux/shell/Shell编程",
     "Linux/shell/Shell编程",
     "OpenSSH",

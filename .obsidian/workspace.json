@@ -37,14 +37,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux servies/DNS.md",
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "2e12162ab515a98b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -96,8 +106,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux servies/DNS.md"
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md"
               }
+            }
+          },
+          {
+            "id": "802f3b34a53367f7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -120,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux servies/DNS.md",
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux servies/DNS.md",
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +192,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "29e09f6a281f609b",
+  "active": "2e12162ab515a98b",
   "lastOpenFiles": [
+    "NFS/NFS配置.md",
+    "Linux/Linux servies/DNS.md",
     "Linux/Linux servies/Vsftpd.md",
     "Linux/shell/Shell编程/处理用户输入.md",
     "Linux/shell/Shell编程/处理用户输入和呈现数据.md",
@@ -183,12 +203,10 @@
     "Linux/shell/Shell编程/脚本控制.md",
     "Linux/重定向.md",
     "Linux/基础命令/curl命令.md",
-    "NFS/NFS配置.md",
     "OpenSSH/源码升级Openssh.md",
     "Nginx/Nginx.md",
     "Nginx/Nginx安装.md",
     "NFS",
-    "Linux/Linux servies/DNS.md",
     "Attachment/Pasted image 20230321210426.png",
     "Attachment/Pasted image 20230321205750.png",
     "Attachment/Pasted image 20230321205718.png",

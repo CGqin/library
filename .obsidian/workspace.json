@@ -59,9 +59,11 @@
             "id": "709c663257b61668",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.3.5"
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -118,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux servies/Vsftpd.md"
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md"
               }
             }
           },
@@ -150,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux servies/Vsftpd.md",
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux servies/Vsftpd.md",
+                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

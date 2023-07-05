@@ -4,71 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a132acc8c7fe8013",
+        "id": "7667ee99d06c1f2d",
         "type": "tabs",
         "children": [
           {
-            "id": "7984a13684fd30c5",
+            "id": "8c7139973e6ea959",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/shell/Shell编程/处理用户输入和呈现数据.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0645054a1cdf6829",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenSSH/源码升级Openssh.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29e09f6a281f609b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e12162ab515a98b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux servies/Vsftpd.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "709c663257b61668",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,9 +66,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md"
-              }
+              "state": {}
             }
           },
           {
@@ -152,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenSSH/openSSH配置基于密钥的身份认证.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,18 +149,18 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "709c663257b61668",
+  "active": "8c7139973e6ea959",
   "lastOpenFiles": [
+    "OpenSSH/openSSH配置基于密钥的身份认证.md",
+    "Linux/Linux servies/Vsftpd.md",
+    "OpenSSH/源码升级Openssh.md",
+    "Linux/shell/Shell编程/处理用户输入和呈现数据.md",
     "NFS/NFS配置.md",
     "Linux/Linux servies/DNS.md",
-    "Linux/Linux servies/Vsftpd.md",
     "Linux/shell/Shell编程/处理用户输入.md",
-    "Linux/shell/Shell编程/处理用户输入和呈现数据.md",
-    "OpenSSH/openSSH配置基于密钥的身份认证.md",
     "Linux/shell/Shell编程/脚本控制.md",
     "Linux/重定向.md",
     "Linux/基础命令/curl命令.md",
-    "OpenSSH/源码升级Openssh.md",
     "Nginx/Nginx.md",
     "Nginx/Nginx安装.md",
     "NFS",

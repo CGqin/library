@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp/ISIS.md",
+                "file": "tmp/路由基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp/ISIS.md"
+                "file": "tmp/路由基础.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/ISIS.md",
+                "file": "tmp/路由基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/ISIS.md",
+                "file": "tmp/路由基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +159,7 @@
   },
   "active": "8c7139973e6ea959",
   "lastOpenFiles": [
+    "tmp/ISIS.md",
     "tmp/RIP配置.md",
     "tmp/shell变量.md",
     "网络/单臂路由.md",
@@ -190,7 +191,6 @@
     "Linux/Linux servies",
     "Linux/未命名.md",
     "tmp/STP.md",
-    "tmp/tmp.md",
     "dhcp_server",
     "Linux/shell/Shell编程",
     "Linux/shell/Shell编程",

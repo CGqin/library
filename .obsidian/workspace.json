@@ -23,9 +23,11 @@
             "id": "3193e827f767301e",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.5"
+                "file": "google hacking/google hacking.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -82,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux servies/Vsftpd.md"
+                "file": "google hacking/google hacking.md"
               }
             }
           },
@@ -114,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux servies/Vsftpd.md",
+                "file": "google hacking/google hacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux servies/Vsftpd.md",
+                "file": "google hacking/google hacking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

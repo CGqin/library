@@ -25,14 +25,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "google hacking/google hacking.md",
+                "file": "dhcp_server/dhcpd.conf.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "1d9c0ff5a4721d07",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "google hacking/google hacking.md"
+                "file": "dhcp_server/dhcpd.conf.md"
               }
             }
           },
@@ -116,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "google hacking/google hacking.md",
+                "file": "dhcp_server/dhcpd.conf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "google hacking/google hacking.md",
+                "file": "dhcp_server/dhcpd.conf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,6 +157,18 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7eba081531a22d29",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -170,8 +192,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "3193e827f767301e",
+  "active": "1d9c0ff5a4721d07",
   "lastOpenFiles": [
+    "tmp/DHCP.md",
+    "google hacking/google hacking.md",
     "Linux/Linux servies/DNS.md",
     "Nginx/Nginx安装.md",
     "dhcp_server/dhcpd.conf.md",
@@ -198,12 +222,10 @@
     "Attachment/Pasted image 20230321210426.png",
     "Attachment/Pasted image 20230321205750.png",
     "Attachment/Pasted image 20230321205718.png",
-    "google hacking/google hacking.md",
     "google hacking",
     "服务器搭建/HTTP服务器/python搭建简易http服务器.md",
     "Linux/Linux servies",
     "Linux/未命名.md",
-    "tmp/STP.md",
     "dhcp_server",
     "Linux/shell/Shell编程",
     "Linux/shell/Shell编程",
